@@ -67,7 +67,7 @@ background-color: rgba(0, 0, 0, .3);
 }
 
 .navbar-nav>li>a{
-  color: #ffffff;
+  color: #ffffff!important;
   margin-right: 8px;
 }
 /* ==========================================================================
