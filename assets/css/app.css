@@ -170,7 +170,10 @@ transition:all .2s ease 0;
 text-decoration:none;
 }
 
-
+.content-info .container{
+  height: 50px;
+  background-color: #1D0F06;
+}
 
 
 
