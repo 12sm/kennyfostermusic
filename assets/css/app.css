@@ -133,6 +133,7 @@ background-color: rgba(0, 0, 0, .3);
   .blog-img{
     padding: 21% 10%;
     border: solid #FFFFFF 3px;
+    background-size: cover;
   }
 
   .blog-posts{
