@@ -130,6 +130,15 @@ background-color: rgba(0, 0, 0, .3);
     text-align: center;
   }
 
+  .blog-img{
+    padding: 21% 10%;
+    border: solid #FFFFFF 3px;
+  }
+
+  .blog-posts{
+    background-color: rgba(0,0,0,.5);
+  }
+
 /* ==========================================================================
    Footer
    ========================================================================== */
