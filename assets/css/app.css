@@ -110,12 +110,18 @@ background-color: rgba(0, 0, 0, .3);
 /* ==========================================================================
     Blog
    ========================================================================== */
+   #blog-signup{
+    padding-bottom: 
+   }   
+
    #blog-signup h2{
       font-size: 20px;
+      margin-bottom: 5px!important;
    }
 
    #blog-signup h1{
       font-size: 25px;
+      margin-top: 5px!important;
    }
 
 
