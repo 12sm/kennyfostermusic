@@ -160,7 +160,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 hr{
-  margin: 0px!important;
+  margin: 2px!important;
   border-top: 2px solid rgba(255,255,255,.3)!important;
 }
 
