@@ -54,6 +54,9 @@ body { }
     background-position: -96px center;
 }
 
+h1, h2, h3, p, a{
+  color: #ffffff;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -162,6 +165,10 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 hr{
   margin: 2px!important;
   border-top: 2px solid rgba(255,255,255,.3)!important;
+}
+
+.blog-title a{
+  color: #FFFFFF!important;
 }
 
 /* ==========================================================================
