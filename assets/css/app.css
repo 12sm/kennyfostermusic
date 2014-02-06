@@ -140,6 +140,12 @@ background-color: rgba(0, 0, 0, .3);
     background-color: rgba(0,0,0,.5);
   }
 
+  .email-gray{
+    border-radius: 0px!important;
+    border: 0px solid rgba(0,0,0,0)!important;
+    background-color: rgba(40,32,9,.4)
+  }
+
 /* ==========================================================================
    Footer
    ========================================================================== */
