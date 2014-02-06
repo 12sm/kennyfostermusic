@@ -146,8 +146,17 @@ background-color: rgba(0, 0, 0, .3);
     background-color: rgba(208,195,176,.4)
   }
 
-  .email-grey input[placeholder], [placeholder], *[placeholder] {
-   color:#FFF !important;
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFFFFF!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFFFFF!important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFFFFF!important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFFFFF!important;
 }
 
 /* ==========================================================================
