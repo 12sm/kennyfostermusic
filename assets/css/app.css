@@ -176,9 +176,10 @@ hr{
 }
 
 /* ==========================================================================
-   Footer
+   Tour Page
    ========================================================================== */
    .tour-dates{
+    background: url('../assets/img/KFTour.png');
 background-repeat: no-repeat;
 background-position: left top;
    }
