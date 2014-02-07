@@ -284,6 +284,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .tour-dates>.row{
     margin-top: 13%;
    }
+   .tour-dates{
+  background: url(../assets/img/KFTour.png);
+}
     }
 
 /* Large devices (large desktops, 1200px and up) */
