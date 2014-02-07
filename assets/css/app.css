@@ -280,6 +280,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .tour-dates{
+  background: url('../img/KFTour.png') 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
   padding-top: 10%;
   background-size: 35%;
 }
@@ -293,6 +296,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    }
    .tour-dates{
   background: url('../img/KFTour.png') 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
     }
 
@@ -300,6 +305,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width:1200px) {
 .tour-dates{
   background: url('../img/KFTour.png') 100% no-repeat;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 .tour-dates>.row{
