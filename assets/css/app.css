@@ -278,7 +278,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px; @screen-sm) {
+@media (min-width: 768px) {
 .tour-dates{
   padding-top: 10%;
   background-size: 35%;
@@ -287,7 +287,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width:992px; @screen-md) {
+@media (min-width:992px) {
 .tour-dates>.row{
     margin-top: 13%;
    }
@@ -297,7 +297,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width:1200px; @screen-lg) {
+@media (min-width:1200px) {
 .tour-dates{
   background: url('../img/KFTour.png') 100% no-repeat;
 }
