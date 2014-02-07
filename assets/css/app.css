@@ -280,7 +280,15 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: @screen-sm) { }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { }
+@media (min-width: @screen-md) {
+.tour-dates>.row{
+    margin-top: 13%;
+   }
+    }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { }
+@media (min-width: @screen-lg) {
+.tour-dates>.row{
+    margin-top: 13%;
+   } 
+ }
