@@ -278,7 +278,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width:768px) {
 .tour-dates{
   background: url('../img/KFTour.png') 100%;
   background-repeat: no-repeat;
@@ -297,6 +297,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    .tour-dates{
   background: url('../img/KFTour.png') 100%;
   background-repeat: no-repeat;
+  padding-top: 0px;
   background-position: left top;
 }
     }
@@ -307,6 +308,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   background: url('../img/KFTour.png') 100% no-repeat;
   background-repeat: no-repeat;
   background-position: left top;
+  padding-top: 0px;
+}
 }
 
 .tour-dates>.row{
