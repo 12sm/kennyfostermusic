@@ -180,8 +180,10 @@ hr{
    ========================================================================== */
    .tour-dates{
     background: url('../img/KFTour.png');
-background-repeat: no-repeat;
-background-position: left top;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 10%;
+  background-size: 35%;
    }
 
    .tour-dates>.row{
@@ -283,8 +285,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   background: url('../img/KFTour.png') 100%;
   background-repeat: no-repeat;
   background-position: left top;
-  padding-top: 10%;
-  background-size: 35%;
+  padding-top: 5%;
+  background-size: 45%;
 }
 
  }
