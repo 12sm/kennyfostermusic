@@ -23,6 +23,14 @@ var ExampleSite = {
   }
 };
 
+//Code for Bandsintown Refresh
+var windowsize = $(window).width();
+
+$(window).resize(function() {
+  var windowsize = $(window).width();
+});
+
+
 var UTIL = {
   fire: function(func, funcname, args) {
     var namespace = ExampleSite;
