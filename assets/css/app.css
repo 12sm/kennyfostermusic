@@ -248,6 +248,13 @@ hr{
     margin-bottom: 3px
    }
 
+   .more-dates{
+    height: 0px!important;
+    padding-bottom: 8%;
+    background-image: url("../img/KFDates.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
 /* ==========================================================================
    Footer
    ========================================================================== */
