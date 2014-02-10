@@ -58,7 +58,7 @@ body { }
 }
 
 h1, h2, h3, p, a{
-  color: #ffffff;
+  color: black;
 }
 
 a{
@@ -207,7 +207,7 @@ hr{
 
    .tour-header:nth-child(2){
     border-left: 1px solid black;
-    border-right: 1px solid black
+    border-right: 1px solid black;
    }
 
    .bit-date{
@@ -390,7 +390,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 .tour-top{
-    margin-top: 13%;
+    margin-top: 13%!important;
    }
    .tour-dates{
   background: url('../img/KFTour.png') 100%;
@@ -411,6 +411,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .tour-top{
-    margin-top: 13%;
+    margin-top: 13%!important;
    } 
  }
