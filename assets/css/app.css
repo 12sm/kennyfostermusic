@@ -234,22 +234,27 @@ hr{
    .bit-header>th{
     height: 0px!important;
     font-size:0px!important;
+    line-height: 0px!important
    }
    .bit-header>th>*{
     height: 0px!important;
     font-size:0px!important;
     padding: 0px!important
+    line-height: 0px!important
    }
    .bit-share-links{
     height: 0px!important;
+    line-height: 0px!important
    }
    .bit-share-links>a{
     height: 0px!important;
+    line-height: 0px!important
    }
 
    tbody:nth-child(2){
     height: 0px!important;
     overflow: hidden!important;
+    line-height: 0px!important
    }
 
    tbody:nth-child(2)>*{
