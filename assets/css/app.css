@@ -213,7 +213,7 @@ hr{
 
     .bit-venue>a{
       font-size: 2.2em!important;
-      text-align: center;
+      text-align: center!important;
     }
 
     .lineup{
@@ -226,6 +226,25 @@ hr{
       height: 0px!important;
     }
    
+.bit-header{
+  height: 0px!important;
+  overflow:hidden;
+}
+
+   .bit-header>th{
+    height: 0px!important;
+    font-size:0px!important;
+   }
+
+   tbody:nth-child(2){
+    height: 0px!important;
+    overflow: hidden!important;
+   }
+
+   tbody:nth-child(2)>*{
+    font-size: 0px!important;
+    height: 0px!important;
+   }
 
    tr{
     border-top: double black 1px;
