@@ -269,7 +269,7 @@ hr{
     line-height: 0px!important
    }
 
-   tbody:nth-child(2){
+   tbody :nth-child(2){
     height: 0px!important;
     overflow: hidden!important;
     line-height: 0px!important
@@ -281,7 +281,7 @@ hr{
     padding-bottom: 0px!important;
    }
 
-   tbody:nth-child(2)>*{
+   tbody :nth-child(2)>*{
     font-size: 0px!important;
     height: 0px!important;
    }
@@ -386,7 +386,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 5%;
-  background-size: 45%;
+  background-size: 33%;
 }
 
  }
@@ -394,7 +394,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 .tour-top{
-    margin-top: 13%!important;
+    margin-top: 14%!important;
    }
    .tour-dates{
   background: url('../img/KFTour.png') 100%;
@@ -415,6 +415,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 
 .tour-top{
-    margin-top: 13%!important;
+    margin-top: 14%!important;
    } 
  }
