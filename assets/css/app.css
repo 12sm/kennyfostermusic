@@ -201,6 +201,15 @@ hr{
     margin-top: 13%;
    }
 
+   .bit-date{
+    border-right: black solid 1px;
+   }
+
+   tr{
+    border-top: double black 1px;
+    border-bottom: double black 1px;
+   }
+
 /* ==========================================================================
    Footer
    ========================================================================== */
