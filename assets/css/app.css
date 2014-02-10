@@ -123,6 +123,7 @@ background-color: rgba(0, 0, 0, .3);
   background-image: url("../img/who-is.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .story{
@@ -131,10 +132,14 @@ background-color: rgba(0, 0, 0, .3);
   background-image: url("../img/Continue-the-Story.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .about-page h3, p{
   text-align: center;
+}
+.about-page h3{
+  line-height: 2;
 }
 /* ==========================================================================
    Posts
