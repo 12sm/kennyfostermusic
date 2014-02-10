@@ -113,7 +113,25 @@ background-color: rgba(0, 0, 0, .3);
 
 .sidebar { }
 
+/* ==========================================================================
+   About
+   ========================================================================== */
 
+.who-is-kf{
+  height: 0px;
+  padding-bottom: 12%;
+  background-image: url(../"img/who-is.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.story{
+  height: 0px;
+  padding-bottom: 12%;
+  background-image: url(../"img/Continue-the-Story.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 /* ==========================================================================
    Posts
