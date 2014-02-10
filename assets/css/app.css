@@ -80,6 +80,14 @@ background-color: rgba(0, 0, 0, .3);
   color: #ffffff!important;
   margin-right: 8px;
 }
+
+.navbar{
+  margin-bottom: 0px!important;
+}
+
+.container-fluid{
+  padding-top: 10px!important;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
