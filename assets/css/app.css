@@ -243,6 +243,9 @@ hr{
    .bit-share-links{
     height: 0px!important;
    }
+   .bit-share-links>a{
+    height: 0px!important;
+   }
 
    tbody:nth-child(2){
     height: 0px!important;
