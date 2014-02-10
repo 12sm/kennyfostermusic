@@ -234,7 +234,7 @@ hr{
 .bit-header{
   display: none;
 }
-   tbody:nth-child(2){
+   tbody>:nth-child(2){
     display:none;
    }
 
