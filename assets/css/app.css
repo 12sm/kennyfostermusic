@@ -197,8 +197,17 @@ hr{
   background-size: 45%;
    }
 
-   .tour-dates>.row{
+   .tour-top{
     margin-top: 13%;
+   }
+
+   .tour-header{
+    border-bottom: 1px solid black;
+   }
+
+   .tour-header:nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black
    }
 
    .bit-date{
