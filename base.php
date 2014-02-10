@@ -18,6 +18,7 @@
   ?>
  
   <div class="wrap container-fluid" role="document">
+  </div>
     <div class="content row">
       <main class="main col-sm-12" role="main">
         <?php include roots_template_path(); ?>
@@ -29,7 +30,6 @@
       <?php endif; ?>
       </div>
     </div><!-- /.content -->
-  </div><!-- /.wrap -->
 
   <?php get_template_part('templates/footer'); ?>
 
