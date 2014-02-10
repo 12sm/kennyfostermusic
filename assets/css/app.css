@@ -202,7 +202,11 @@ hr{
    }
 
    .tour-header{
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+   }
+
+   .tour-header>div{
+    font-size: 20px;
    }
 
    .next-show{
