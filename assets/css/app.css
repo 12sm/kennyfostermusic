@@ -272,7 +272,8 @@ hr{
    tbody :nth-child(2){
     height: 0px!important;
     overflow: hidden!important;
-    line-height: 0px!important
+    line-height: 0px!important;
+    display:none;
    }
 
    .bit-header>.bit-description-links{
