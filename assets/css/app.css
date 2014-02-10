@@ -242,6 +242,7 @@ hr{
 .bit-header{
   height: 0px!important;
   overflow:hidden;
+  display: none;
 }
 
    .bit-header>th{
