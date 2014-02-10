@@ -17,7 +17,7 @@
     }
   ?>
  
-  <div class="wrap container" role="document">
+  <div class="wrap container-fluid" role="document">
     <div class="content row">
       <main class="main col-sm-12" role="main">
         <?php include roots_template_path(); ?>
@@ -27,6 +27,7 @@
           <?php include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
       <?php endif; ?>
+      </div>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
