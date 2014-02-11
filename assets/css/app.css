@@ -142,7 +142,7 @@ background-color: rgba(0, 0, 0, .3);
   background-position: center;
 }
 
-.about-page h3, p{
+.about-page h3, .about-page p{
   text-align: center;
 }
 .about-page h3{
