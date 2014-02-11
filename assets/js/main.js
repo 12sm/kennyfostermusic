@@ -50,5 +50,7 @@ var UTIL = {
     UTIL.fire('common', 'finalize');
   }
 };
-
+$(document).ready(function(){
+$('.vid-wrapper').fitVids();
+});
 $(document).ready(UTIL.loadEvents);
