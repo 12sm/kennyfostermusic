@@ -109,6 +109,9 @@ background-color: rgba(0, 0, 0, .3);
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
 
+.centered{
+  text-align: center;
+}
 
 
 /* ==========================================================================
