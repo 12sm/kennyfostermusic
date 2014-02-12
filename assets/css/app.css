@@ -309,7 +309,7 @@ hr{
    }
 
    .bit-header>.bit-description-links{
- display: none;
+ display: none!important;
    }
 
    tr{
