@@ -57,7 +57,7 @@ $('.vid-wrapper').fitVids();
 $(document).ready(UTIL.loadEvents);
 
 
-$('.bit-tickets').load(function(){ 
+$('.bit-tickets').onload(function(){ 
   console.log("load is working")
 var tickets= getElementsByTagName('bit-buy-tix')                                        
     $('tickets').each(function(){
