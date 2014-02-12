@@ -56,10 +56,9 @@ $('.vid-wrapper').fitVids();
 
 $(document).ready(UTIL.loadEvents);
 
-function tix(){
-    $('.bit-tickets').load(function(){                                         
-        $('.bit-tickets').each(function(){
-            $('.bit-tickets a').text("TIX");
-        });
-    });     
-} 
+
+$('.bit-tickets').load(function(){                                         
+    $('.bit-tickets').each(function(){
+        $('.bit-tickets a').text("TIX");
+    });
+});     
