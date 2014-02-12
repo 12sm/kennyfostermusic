@@ -272,6 +272,8 @@ hr{
    .next-show{
     border-left: 1px solid #FFFFFF!important;
     border-right: 1px solid #FFFFFF!important;
+    font-size: 1.4em;
+    text-align:center;
    }
 
    .bit-date{
@@ -319,8 +321,8 @@ hr{
   font-family: 'Old-Western';
 }
    tr{
-    border-top: double #FFFFFF!important 1px;
-    border-bottom: double #FFFFFF!important 3px;
+    height: 45px;
+    border-bottom: double 4px #FFFFFF!important ;
     margin-bottom: 3px
    }
 
