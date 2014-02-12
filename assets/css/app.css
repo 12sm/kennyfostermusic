@@ -308,16 +308,22 @@ hr{
     display:none;
    }
 
-   .bit-header>.bit-description-links{
+   .bit-description-links{
  display: none!important;
    }
 
+.bit-tickets a{
+  font-family: 'Old-Western';
+}
    tr{
     border-top: double black 1px;
     border-bottom: double black 1px;
     margin-bottom: 3px
    }
 
+   .tour-header>*{
+    font-family: 'Old-Western';
+   }
    .more-dates{
     height: 0px!important;
     padding-bottom: 8%;
