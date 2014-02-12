@@ -322,7 +322,7 @@ hr{
    }
 
    .tour-header>*{
-    font-family: 'Old-Western';
+    font-family: 'Old-Western'!important;
    }
    .more-dates{
     height: 0px!important;
