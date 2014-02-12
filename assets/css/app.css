@@ -78,6 +78,10 @@ p{
   font-family: 'chaparral-pro';
 }
 
+h3{
+  font-family: 'chaparral-pro';
+}
+
 a{
   text-decoration: none;
 }
@@ -273,6 +277,18 @@ hr{
     font-size: 1.2em;
     border-right: black solid 1px;
     min-width: 60px;
+}
+.bit-date a{
+  font-family: "Go-2-Old-Western"!important;
+}
+.bit-rsvp{
+  display: none;
+}
+.bit-location{
+  border-right: solid 1px black;
+}
+.lineup{
+  display: none;
 }
     .bit-venue{
       border-right: 1px solid black;
