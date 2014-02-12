@@ -59,6 +59,6 @@ $(document).ready(UTIL.loadEvents);
 
 $('.bit-tickets').load(function(){                                         
     $('.bit-tickets').each(function(){
-        $('.bit-tickets a').text("TIX");
+        $('.bit-buy-tix').text("TIX");
     });
 });     
