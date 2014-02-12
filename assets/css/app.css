@@ -257,12 +257,12 @@ hr{
    }
 
    .tour-top{
-    margin-top: 13%;
+    margin-top: 14%;
    }
 
    .tour-header{
     border-top: 1px solid #FFFFFF!important;
-    border-bottom: 1px solid #FFFFFF!important;
+    border-bottom: 3px double #FFFFFF!important;
    }
 
    .tour-header>div>*{
@@ -320,7 +320,7 @@ hr{
 }
    tr{
     border-top: double #FFFFFF!important 1px;
-    border-bottom: double #FFFFFF!important 1px;
+    border-bottom: double #FFFFFF!important 3px;
     margin-bottom: 3px
    }
 
