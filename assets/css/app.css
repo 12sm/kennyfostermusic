@@ -6,15 +6,15 @@
 
 @font-face{
   font-family: "Old-western";
-  src: url(/..fonts/Go-2-Old-Western.ttf);
+  src: url(../fonts/Go-2-Old-Western.ttf);
 }
 @font-face{
   font-family: "Haymaker";
-  src: url(/..fonts/Haymaker.ttf);
+  src: url(../fonts/Haymaker.ttf);
 }
 @font-face{
   font-family: "Hooverville";
-  src: url(/..fonts/Hooverville.ttf);
+  src: url(../fonts/Hooverville.ttf);
 }
 /* ==========================================================================
    Base
