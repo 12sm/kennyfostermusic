@@ -324,6 +324,16 @@ hr{
    .tour-header>*{
     font-family: 'Old-Western'!important;
    }
+
+   .hammer>h2{
+    font-family: 'Old-Western'!important;
+   }
+   .afoot>h2{
+    font-family: 'Old-Western'!important;
+   }
+   .next-show>h3{
+    font-family: 'Old-Western'!important;
+   }
    .more-dates{
     height: 0px!important;
     padding-bottom: 8%;
