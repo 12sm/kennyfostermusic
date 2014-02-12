@@ -74,6 +74,10 @@ h1, h2, h3, p, a{
   color: black;
 }
 
+p{
+  font-family: 'chaparral-pro';
+}
+
 a{
   text-decoration: none;
 }
