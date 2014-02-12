@@ -58,8 +58,10 @@ $(document).ready(UTIL.loadEvents);
 
 
 $('.bit-tickets').load(function(){ 
+  console.log("load is working")
 var tickets= getElementsByTagName('bit-buy-tix')                                        
     $('tickets').each(function(){
+      console.log(".tickets are being recognized")
         $('.bit-buy-tix > Tickets').text("TIX");
     });
 });     
