@@ -279,16 +279,16 @@ hr{
     min-width: 60px;
 }
 .bit-date a{
-  font-family: "Go-2-Old-Western"!important;
+  font-family: "Old-Western"!important;
 }
 .bit-rsvp{
-  display: none;
+  display: none!important;
 }
 .bit-location{
-  border-right: solid 1px black;
+  border-right: solid 1px black!important;
 }
 .lineup{
-  display: none;
+  display: none!important;
 }
     .bit-venue{
       border-right: 1px solid black;
