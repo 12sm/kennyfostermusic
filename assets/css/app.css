@@ -302,7 +302,9 @@ hr{
       text-align: center!important;
       font-family: 'Hooverville';
     }
-
+.bit-bottom{
+  display: none!important;
+}
     .bit-venue>a{
       font-size: 2.2em!important;
     }
