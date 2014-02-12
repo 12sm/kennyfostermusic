@@ -53,4 +53,13 @@ var UTIL = {
 $(document).ready(function(){
 $('.vid-wrapper').fitVids();
 });
+
 $(document).ready(UTIL.loadEvents);
+
+function tix(){
+    $('#bit-widget-0').load(function(){                                         
+        $('.bit-tickets').each(function(){
+            $('.bit-tickets'):text.text("TIX");
+        });
+    });     
+} 
