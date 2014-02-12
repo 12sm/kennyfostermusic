@@ -64,4 +64,4 @@ var tickets= getElementsByTagName('bit-buy-tix')
       console.log(".tickets are being recognized")
         $('.bit-buy-tix > Tickets').text("TIX");
     });
-});     
+};     
