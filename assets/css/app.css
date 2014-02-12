@@ -1,8 +1,21 @@
 /*!
  * Roots 6.5.0
  */
+/*FONTS*/
 
 
+@font-face{
+  font-family: "Old-western";
+  src: url(fonts/Go-2-Old-Western.tff);
+}
+@font-face{
+  font-family: "Haymaker";
+  src: url(fonts/Hamaker.ttf);
+}
+@font-face{
+  font-family: "Hooverville";
+  src: url(fonts/Hooverville.ttf);
+}
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -67,6 +80,9 @@ a{
 /* ==========================================================================
    Header
    ========================================================================== */
+.nav li a{
+  font-family: 'Haymaker';
+}
 
 .banner {
 background-color: rgba(0, 0, 0, .3);
