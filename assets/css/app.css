@@ -74,7 +74,9 @@ background-color: black; }
 h1, h2, h3, p, a{
   color: #FFFFFF!important;
 }
-
+h1{
+  font-family: 'Hooverville';
+}
 p{
   font-family: 'chaparral-pro';
 }
