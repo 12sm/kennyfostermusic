@@ -367,12 +367,14 @@ display: none!important;
     font-family: 'Old-Western'!important;
    }
    .more-dates{
-    height: 0px!important;
-    padding-bottom: 8%;
-    background-image: url("../img/KFDates.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 25px;
+   height: 0px!important;
+  padding-bottom: 25%;
+  padding-left: 25%;
+  background-image: url("../img/KFDates.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+  float: right;
    }
 /* ==========================================================================
    Footer
@@ -548,7 +550,7 @@ min-width: 60px;
 .bit-venue>a{
   margin-top: 10px!important;
   font-size: 2.2em!important;
-  float: right!important;
+  display: inline-block!important;
   text-align:center;
 }
 .bit-bottom{
