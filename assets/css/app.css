@@ -152,7 +152,7 @@ background-color: rgba(0, 0, 0, .3);
 
 .who-is-kf{
   height: 0px;
-  padding-bottom: 12%;
+  padding-bottom: 40%;
   background-image: url("../img/who-is.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -161,7 +161,7 @@ background-color: rgba(0, 0, 0, .3);
 
 .story{
   height: 0px;
-  padding-bottom: 12%;
+  padding-bottom: 25%;
   background-image: url("../img/Continue-the-Story.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -170,6 +170,7 @@ background-color: rgba(0, 0, 0, .3);
 
 }
 .about-page h3{
+  margin-top: 20px;
   line-height: 2;
 }
 .about-page p{
