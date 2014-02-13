@@ -157,6 +157,7 @@ background-color: rgba(0, 0, 0, .3);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-top: -30px;
 }
 
 .story{
@@ -482,7 +483,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   margin-top: -60px!important;
 }
 
+.story{
+   margin-top: -45px;
  }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
