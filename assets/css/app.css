@@ -251,9 +251,11 @@ hr{
    .tour-dates{
     background: url('../img/KFTour.png');
   background-repeat: no-repeat;
-  background-position: left top;
-  padding-top: 10%;
+  background-position: center;
   background-size: 45%;
+  float: right;
+  margin-top: 5px;
+  padding: 13% 15%;
    }
 
   #bit-widget-0{
@@ -281,6 +283,10 @@ hr{
     font-size: 1.4em;
     text-align:center;
    }
+   .next-show>h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
 
    .bit-date{
     font-size: 1.2em;
@@ -302,29 +308,30 @@ hr{
 .lineup{
   display: none!important;
 }
-    .bit-venue{
-      border-right: 1px solid #FFFFFF!important;
-      width: 65%;
-      text-align: center!important;
-      font-family: 'Hooverville';
-    }
+.bit-venue{
+  display: none!important;
+  border-right: 1px solid #FFFFFF!important;
+  width: 65%;
+  text-align: center!important;
+  font-family: 'Hooverville';
+}
 .bit-bottom{
   display: none!important;
 }
-    .bit-venue>a{
-      font-size: 2.2em!important;
-    }
-   
-.bit-header{
-  display: none;
+.bit-venue>a{
+  font-size: 2.2em!important;
 }
-   tbody>:nth-child(2){
-    display:none;
-   }
 
-   .bit-description-links{
- display: none!important;
-   }
+.bit-header{
+display: none;
+}
+tbody>:nth-child(2){
+display:none;
+}
+
+.bit-description-links{
+display: none!important;
+}
 
 .bit-tickets a{
   font-family: 'Old-Western';
@@ -349,9 +356,14 @@ hr{
    .tour-header>*{
     font-family: 'Old-Western'!important;
    }
-
+   .hammer{
+    display: none;
+   }
    .hammer>h3{
     font-family: 'Old-Western'!important;
+   }
+   .afoot{
+    display: none;
    }
    .afoot>h3{
     font-family: 'Old-Western'!important;
@@ -474,13 +486,130 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .tour-top{
     margin-top: 14%!important;
    }
-   .tour-dates{
-  background: url('../img/KFTour.png') 100%;
-  background-repeat: no-repeat;
-  padding-top: 0px;
-  background-position: left top;
+.tour-dates{
+background: url('../img/KFTour.png') 100%;
+background-repeat: no-repeat;
+padding-top: 0px;
+background-position: left top;
+background-size: 35%;
 }
-    }
+
+.tour-dates{
+background: url('../img/KFTour.png');
+background-repeat: no-repeat;
+background-position: left top;
+padding-top: 10%;
+background-size: 45%;
+}
+
+#bit-widget-0{
+color: #FFFFFF;
+}
+
+.tour-header{
+border-top: 1px solid #FFFFFF!important;
+border-bottom: 1px solid #FFFFFF!important;
+margin-bottom: 3px;
+}
+
+.tour-header>div>*{
+font-size: 25px;
+text-align: center;
+}
+
+.next-show{
+border-left: 1px solid #FFFFFF!important;
+border-right: 1px solid #FFFFFF!important;
+font-size: 1.4em;
+text-align:center;
+}
+
+.bit-date{
+font-size: 1.2em;
+border-right: #FFFFFF solid 1px!important;
+min-width: 60px;
+}
+.bit-date a{
+  font-family: "Old-Western"!important;
+  font-size: 25px!important;
+}
+.bit-rsvp{
+  display: none!important;
+}
+.bit-location{
+  border-right: solid 1px #FFFFFF!important;
+  font-family: 'Hooverville';
+  text-align: center!important;
+}
+.lineup{
+  display: none!important;
+}
+.bit-venue{
+  border-right: 1px solid #FFFFFF!important;
+  width: 65%;
+  text-align: center!important;
+  font-family: 'Hooverville';
+}
+.bit-venue>a{
+  font-size: 2.2em!important;
+}
+.bit-bottom{
+  display: none!important;
+}  
+.bit-header{
+  display: none;
+}
+tbody>:nth-child(2){
+display:none;
+}
+
+.bit-description-links{
+display: none!important;
+}
+
+.bit-tickets a{
+  font-family: 'Old-Western';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.tour-margin{
+  margin-top: 3px;
+}
+tr{
+height: 45px;
+border-bottom: solid 2px #FFFFFF!important ;
+margin-bottom: 3px
+}
+
+.tour-border-bottom{
+margin-top: 3px;
+border-top: 1px solid #ffffff;
+}
+
+.tour-header>*{
+font-family: 'Old-Western'!important;
+}
+
+.hammer>h3{
+font-family: 'Old-Western'!important;
+}
+.afoot>h3{
+font-family: 'Old-Western'!important;
+}
+.next-show>h2{
+font-family: 'Old-Western'!important;
+font-size: 30px;
+}
+.more-dates{
+height: 0px!important;
+padding-bottom: 8%;
+background-image: url("../img/KFDates.png");
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 25px;
+}
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
