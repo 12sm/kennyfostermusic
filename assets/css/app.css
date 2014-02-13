@@ -136,6 +136,8 @@ background-color: rgba(0, 0, 0, .3);
   height: 0px!important;
   padding-bottom: 5%;
   background-image: url(../img/vid-line.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .vid-nav{
   margin-top: 15px!important;
