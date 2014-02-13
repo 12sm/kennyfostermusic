@@ -546,6 +546,7 @@ min-width: 60px;
   font-family: 'Hooverville';
 }
 .bit-venue>a{
+  margin-top: 10px!important;
   font-size: 2.2em!important;
 }
 .bit-bottom{
