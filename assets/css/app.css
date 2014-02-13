@@ -266,11 +266,13 @@ hr{
 
    .tour-header{
     border-top: 1px solid #FFFFFF!important;
-    border-bottom: 3px double #FFFFFF!important;
+    border-bottom: 1px solid #FFFFFF!important;
+    margin-bottom: 3px;
    }
 
    .tour-header>div>*{
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
    }
 
    .next-show{
@@ -334,6 +336,7 @@ hr{
    }
 
    .tour-border-bottom{
+    margin-top: 3px;
     border-top: 1px solid #ffffff;
    }
 
@@ -349,6 +352,7 @@ hr{
    }
    .next-show>h2{
     font-family: 'Old-Western'!important;
+    font-size: 30px;
    }
    .more-dates{
     height: 0px!important;
@@ -356,6 +360,7 @@ hr{
     background-image: url("../img/KFDates.png");
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 25px;
    }
 /* ==========================================================================
    Footer
