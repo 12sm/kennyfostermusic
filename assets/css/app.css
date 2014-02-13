@@ -470,20 +470,22 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 .tour-dates{
+
   background: url('../img/KFTour.png') 100%;
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 5%;
   background-size: 33%;
 }
+.about-page h3{
+  margin-top: -30px!important;
+}
 
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-h3 .centered{
-  margin-top: -30px!important;
-}
+
 
 .about-page p{
 margin-top: 10px;
