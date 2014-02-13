@@ -482,10 +482,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 .centered h3{
-  margin-top: -30px;
+  margin-top: -30px!important;
 }
 
 .about-page p{
+margin-top: 10px;
 font-size: 18px;
 line-height: 1.5;
 }
