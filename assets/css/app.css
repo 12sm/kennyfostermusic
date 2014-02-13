@@ -328,6 +328,8 @@ hr{
 
 .bit-tickets a{
   font-family: 'Old-Western';
+  font-size: 20px;
+  text-decoration: none;
 }
    tr{
     height: 45px;
