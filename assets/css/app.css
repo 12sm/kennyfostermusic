@@ -284,6 +284,8 @@ hr{
     text-align:center;
    }
    .next-show>h2{
+    font-family: 'Old-Western'!important;
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
    }
@@ -367,10 +369,6 @@ display: none!important;
    }
    .afoot>h3{
     font-family: 'Old-Western'!important;
-   }
-   .next-show>h2{
-    font-family: 'Old-Western'!important;
-    font-size: 30px;
    }
    .more-dates{
     height: 0px!important;
@@ -492,6 +490,7 @@ background-repeat: no-repeat;
 padding-top: 0px;
 background-position: left top;
 background-size: 35%;
+padding: 0px!important;
 }
 
 #bit-widget-0{
@@ -516,6 +515,10 @@ border-left: 1px solid #FFFFFF!important;
 border-right: 1px solid #FFFFFF!important;
 font-size: 1.4em;
 text-align:center;
+}
+.next-show>h2{
+  margin-top: 20px;
+margin-bottom: 10px;
 }
 
 .bit-date{
