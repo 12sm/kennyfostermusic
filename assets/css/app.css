@@ -538,6 +538,8 @@ min-width: 60px;
   display: none!important;
 }
 .bit-venue{
+  float: right!important;
+  text-align:center;
   height: inherit!important;
   display: block!important;
   border-right: 1px solid #FFFFFF!important;
