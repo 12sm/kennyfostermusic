@@ -329,8 +329,12 @@ hr{
 }
    tr{
     height: 45px;
-    border-bottom: double 4px #FFFFFF!important ;
+    border-bottom: solid 2px #FFFFFF!important ;
     margin-bottom: 3px
+   }
+
+   .border-tour-bottom{
+    border-top: 1px solid #ffffff;
    }
 
    .tour-header>*{
