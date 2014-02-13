@@ -481,7 +481,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-.centered h3{
+h3 .centered{
   margin-top: -30px!important;
 }
 
