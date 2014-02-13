@@ -166,6 +166,7 @@ background-color: rgba(0, 0, 0, .3);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-top: -20px;
 }
 
 }
@@ -478,7 +479,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   background-size: 33%;
 }
 .about-page h3{
-  margin-top: -30px!important;
+  margin-top: -60px!important;
 }
 
  }
