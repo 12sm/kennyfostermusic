@@ -261,7 +261,7 @@ hr{
   }
 
    .tour-top{
-    margin-top: 14%;
+    margin-top: 16%;
    }
 
    .tour-header{
@@ -330,6 +330,10 @@ hr{
   font-family: 'Old-Western';
   font-size: 20px;
   text-decoration: none;
+}
+
+.tour-margin{
+  margin-top: 3px;
 }
    tr{
     height: 45px;
