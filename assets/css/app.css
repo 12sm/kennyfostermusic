@@ -174,7 +174,6 @@ background-color: rgba(0, 0, 0, .3);
   line-height: 2;
 }
 .about-page p{
-  font-size: 18px;
   line-height: 1.5;
 }
 /* ==========================================================================
@@ -482,6 +481,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+
+.about-page p{
+font-size: 18px;
+line-height: 1.5;
+}
 .tour-top{
     margin-top: 14%!important;
    }
