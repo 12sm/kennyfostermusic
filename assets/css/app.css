@@ -326,6 +326,7 @@ hr{
     font-size: 1.2em;
     border-right: #FFFFFF solid 1px!important;
     min-width: 60px;
+    text-align: center!important;
 }
 .bit-date a{
   font-family: "Old-Western"!important;
