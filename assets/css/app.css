@@ -336,6 +336,7 @@ hr{
   display: none!important;
 }
 .bit-location{
+  border-left: solid 1px #ffffff;
   border-right: solid 1px #FFFFFF!important;
   font-family: 'Hooverville';
   text-align: center!important;
@@ -589,7 +590,6 @@ min-width: 60px;
 .bit-venue{
   height: inherit!important;
   display: block!important;
-  border-right: 1px solid #FFFFFF!important;
   width: 65%;
   text-align: center!important;
   font-family: 'Hooverville';
