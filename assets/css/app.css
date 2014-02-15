@@ -286,6 +286,7 @@ hr{
   background-position: top left;
   background-size: 40%;
   margin: 35px auto;
+  display: block;
    }
 .tour-date>*{
   width: 100%!important;
