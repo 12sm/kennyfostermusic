@@ -285,10 +285,11 @@ hr{
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 40%;
-  float: right;
-  margin-top: 5px;
+  margin: 35px auto;
    }
-
+.tour-date>*{
+  width: 100%!important;
+}
   #bit-widget-0{
     color: #FFFFFF;
   }
