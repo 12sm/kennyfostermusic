@@ -32,6 +32,8 @@ margin-top: 16px;
 font-size: 18px;
 line-height: 1.5;
 }
+
+
 /* Twitter Widget Pro Styling */
 .widget_twitter div {
     padding:0;
@@ -81,7 +83,7 @@ h1, h2, h3, p, a{
   color: #FFFFFF!important;
 }
 h1{
-  font-family: 'Hooverville';
+  font-family: 'chaparral-pro';
 }
 p{
   font-family: 'chaparral-pro';
@@ -89,8 +91,10 @@ p{
 
 h3{
   line-height: 1.7;
-  font-family: 'chaparral-pro';
+  font-family: 'Hooverville';
+  font-size:26px;
 }
+
 
 a{
   text-decoration: none;
