@@ -26,6 +26,12 @@ background-color: black; }
   max-width: 1170px;
   margin: 0 auto;
 }
+
+p{
+margin-top: 10px;
+font-size: 18px;
+line-height: 1.5;
+}
 /* Twitter Widget Pro Styling */
 .widget_twitter div {
     padding:0;
@@ -202,9 +208,6 @@ margin-top: 5px;
 .about-page h3{
   margin-top: 20px;
   line-height: 2;
-}
-.about-page p{
-  line-height: 1.5;
 }
 /* ==========================================================================
    Posts
@@ -520,11 +523,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
  }
 
 
-.about-page p{
-margin-top: 10px;
-font-size: 18px;
-line-height: 1.5;
-}
+
 .tour-top{
     margin-top: 14%!important;
    }
