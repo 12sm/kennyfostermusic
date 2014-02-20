@@ -139,7 +139,7 @@ display: none;
 
 .navbar-default .navbar-nav>.active>a {
 color: #F30;
-background-color: none!important;
+background: none!important;
 }
 
 
