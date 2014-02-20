@@ -17,7 +17,7 @@
   src: url(../fonts/Hooverville.ttf);
 }
 /* ==========================================================================
-   Base
+   Base 
    ========================================================================== */
 
 body {
@@ -125,6 +125,15 @@ background-color: rgba(0, 0, 0, .3);
 
 .container-fluid{
   padding-top: 10px!important;
+}
+
+.navbar-default {
+background-color: #f8f8f8;
+border:none!important;
+}
+
+.navbar>.container .navbar-brand {
+display: none;
 }
 /* ==========================================================================
    Content
