@@ -327,6 +327,11 @@ hr{
   color: #FFFFFF!important;
 }
 
+.container-fluid.blog-page {
+background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/ozarks-lg.jpg);
+background-size: cover;
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
