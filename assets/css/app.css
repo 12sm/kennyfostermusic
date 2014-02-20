@@ -225,10 +225,14 @@ margin-top: 5px;
   margin-top: -20px;
 }
 
-}
+
 .about-page h3{
   margin-top: 20px;
   line-height: 2;
+}
+
+h3.centered i {
+font-family:Georgia, "Times New Roman", Times, serif;	
 }
 /* ==========================================================================
    Posts
