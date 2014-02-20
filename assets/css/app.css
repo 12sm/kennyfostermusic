@@ -332,6 +332,10 @@ background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/201
 background-size: cover;
 }
 
+.row.blog-posts {
+height: 159px;
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
