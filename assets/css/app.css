@@ -250,6 +250,11 @@ h1.centered {
 font-family: Hooverville;
 }
 
+.col-sm-4.video-description {
+height: 400px;
+overflow: scroll;
+padding: 0;
+}
 
 /* ==========================================================================
    Tour
