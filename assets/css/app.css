@@ -225,6 +225,9 @@ margin-top: 5px;
   margin-top: -20px;
 }
 
+.container-fluid.about-page {
+background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
+}
 
 .about-page h3{
   margin-top: 20px;
