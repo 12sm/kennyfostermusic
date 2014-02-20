@@ -251,6 +251,10 @@ border: none;
 background-size: cover;
 }
 
+.tour-top {
+margin-top: 18%!important;
+}
+
 
 /* ==========================================================================
    Posts
