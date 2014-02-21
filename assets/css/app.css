@@ -24,7 +24,6 @@ body {
 background-color: black; }
 .container-fluid .row{
   max-width: 1170px;
-  margin: 0 auto;
 }
 
 p{
@@ -191,7 +190,6 @@ margin-top: 5px;
 .who-is-kf{
   height: 0px;
   padding-bottom: 40%;
-  background-image: url("../img/who-is.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

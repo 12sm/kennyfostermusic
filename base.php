@@ -21,8 +21,7 @@
     <div class="content row">
       <main class="main col-sm-12" role="main">
       </main>
-      </div>
-      </div>
+      
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
       <!--<?php if (roots_display_sidebar()) : ?>
@@ -34,6 +33,7 @@
     </div><!-- /.content -->
 
   <?php get_template_part('templates/footer'); ?>
-
+</div>
+      </div>
 </body>
 </html>
