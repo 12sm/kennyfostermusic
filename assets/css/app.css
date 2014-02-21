@@ -99,6 +99,8 @@ h3{
 h4{
   font-family: 'chaparral-pro', serif;
   font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 a{
@@ -193,6 +195,7 @@ background: none!important;
   background-image: url(../img/KF---Arrows-2.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-y: 50%;
 }
 
 /* ==========================================================================
