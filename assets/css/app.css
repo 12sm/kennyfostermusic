@@ -17,7 +17,7 @@
   src: url(../fonts/Hooverville.ttf);
 }
 /* ==========================================================================
-   Base
+   Base 
    ========================================================================== */
 
 body {
@@ -125,12 +125,31 @@ background-color: rgba(0, 0, 0, .3);
 .container-fluid{
   padding-top: 10px!important;
 }
+
+.navbar-default {
+background-color: #000000;
+border:none!important;
+opacity:.3;
+}
+
+.navbar>.container .navbar-brand {
+display: none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+color: #F30;
+background: none!important;
+}
+
+
 /* ==========================================================================
    Content
    ========================================================================== */
 
 
 .content { }
+
+
 
 
 
@@ -206,11 +225,50 @@ margin-top: 5px;
   margin-top: -20px;
 }
 
+.container-fluid.about-page {
+background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
+background-repeat: no-repeat;
 }
+
 .about-page h3{
   margin-top: 20px;
   line-height: 2;
 }
+
+h3.centered i {
+font-family:'chaparral-pro', serif;
+line-height:1.4em;
+}
+
+/* ==========================================================================
+   Video
+   ========================================================================== */
+
+h1.centered {
+font-family: Hooverville;
+}
+
+.col-sm-4.video-description {
+height: 400px;
+overflow: scroll;
+padding: 0;
+}
+
+/* ==========================================================================
+   Tour
+   ========================================================================== */
+
+.wrap.container-fluid.tour {
+background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/desert-lg1.jpg);
+border: none;
+background-size: cover;
+}
+
+.tour-top {
+margin-top: 18%!important;
+}
+
+
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -280,6 +338,15 @@ hr{
 
 .blog-title a{
   color: #FFFFFF!important;
+}
+
+.container-fluid.blog-page {
+background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/ozarks-lg.jpg);
+background-size: cover;
+}
+
+.row.blog-posts {
+height: 159px;
 }
 
 /* ==========================================================================
@@ -673,6 +740,6 @@ margin-top: 25px;
 }
 
 .tour-top{
-    margin-top: 14%!important;
+    margin-top: 18%!important;
    } 
  }
