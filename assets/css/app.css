@@ -252,6 +252,10 @@ height: 400px;
 overflow: scroll;
 padding: 0;
 }
+.video{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* ==========================================================================
    Tour
