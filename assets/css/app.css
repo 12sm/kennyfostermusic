@@ -97,7 +97,7 @@ h3{
 }
 
 h4{
-  font-family: 'Hooverville';
+  font-family: 'chaparral-pro', serif;
   font-size: 20px;
 }
 
@@ -178,17 +178,22 @@ background: none!important;
    ========================================================================== */
 .store{
   background-image: url(../img/desert-lg.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .store-img{
   height: 0px!important;
-  background-size: cover;
-  padding-bottom: 15%;
+  background-size: contain;
+  padding-bottom: 30%;
   background-repeat: no-repeat;
 }
 
+.store-txt{
+  background-image: url(../img/KF---Arrows-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 /* ==========================================================================
    Primary Content
