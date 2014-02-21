@@ -172,6 +172,12 @@ background: none!important;
 /* ==========================================================================
    Store
    ========================================================================== */
+.store{
+  background-image: url(../img/desert-lg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .store-img{
   height: 0px!important;
   background-size: contain;
