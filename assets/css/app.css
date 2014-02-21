@@ -32,6 +32,9 @@ font-size: 18px;
 line-height: 1.5;
 }
 
+.video p{
+  font-size: 14px;
+}
 
 /* Twitter Widget Pro Styling */
 .widget_twitter div {
@@ -83,6 +86,7 @@ h1, h2, h3, p, a{
 }
 h1{
   font-family: 'chaparral-pro';
+  font-size: 30px;
 }
 p{
   font-family: 'chaparral-pro';
