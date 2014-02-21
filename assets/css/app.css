@@ -150,7 +150,8 @@ background: none!important;
     background-image: url(../img/kenny_final_flat_sharp.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    padding-bottom: 100%;
+    padding-bottom: 80%;
+    height: 0px!important
    }
 
    .slider-img{
@@ -158,6 +159,7 @@ background: none!important;
     padding-bottom: 100%;
     background-size: contain; 
     background-repeat: no-repeat;
+    margin-top: 20%;
    }
 
 /* ==========================================================================
