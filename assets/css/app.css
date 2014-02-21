@@ -148,14 +148,16 @@ background: none!important;
    ========================================================================== */
    .home-slider{
     background-image: url(../img/kenny_final_flat_sharp.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    padding-bottom: 100%;
    }
 
    .slider-img{
     height: 0px;
     padding-bottom: 100%;
     background-size: contain; 
+    background-repeat: no-repeat;
    }
 
 /* ==========================================================================
@@ -243,7 +245,7 @@ padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.video p{
+.vid-desc>p{
   font-size: 14px;
   line-height: 1.1;
 }
