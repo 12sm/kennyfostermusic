@@ -143,6 +143,19 @@ color: #F30;
 background: none!important;
 }
 
+/* ==========================================================================
+   Home
+   ========================================================================== */
+   .home-slider{
+    background-image: url(../img/kenny_final_flat_sharp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .slider-img{
+    height: 0px;
+    padding-bottom: 75%; 
+   }
 
 /* ==========================================================================
    Content
