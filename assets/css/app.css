@@ -237,7 +237,7 @@ padding: 0;
   padding: 3% 5%;
   background-image: url(../img/Black-Background.png);
   background-size: contain;
-  border: solid 3px rgba(255,255,255, .1);
+  border: solid 3px rgba(0,0,0, .1);
   border-radius: 5px;
 }
 .vid-line{
