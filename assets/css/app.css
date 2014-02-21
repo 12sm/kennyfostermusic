@@ -180,8 +180,9 @@ background: none!important;
 
 .store-img{
   height: 0px!important;
-  background-size: contain;
+  background-size: cover;
   padding-bottom: 15%;
+  background-repeat: no-repeat;
 }
 
 
