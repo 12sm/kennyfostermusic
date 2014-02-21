@@ -225,11 +225,6 @@ margin-top: 5px;
   margin-top: -20px;
 }
 
-.container-fluid.about-page {
-background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
-background-repeat: no-repeat;
-}
-
 .about-page h3{
   margin-top: 20px;
   line-height: 2;
@@ -240,6 +235,10 @@ font-family:'chaparral-pro', serif;
 line-height:1.4em;
 }
 
+.about{
+  background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
+background-repeat: no-repeat;
+}
 /* ==========================================================================
    Video
    ========================================================================== */
