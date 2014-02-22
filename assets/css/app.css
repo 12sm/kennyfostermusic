@@ -309,6 +309,12 @@ margin-top: 5px;
   background-repeat: no-repeat;
   background-size: contain;
 }
+.vid-desc{
+  text-align: center;
+ }
+ .vid-read{
+  text-align: center;
+ }
 /* ==========================================================================
    Tour
    ========================================================================== */
@@ -796,8 +802,10 @@ height: 110px!important;
   background-position: left top;
   padding-top: 0px;
 }
-}
-
+ .vid-desc{
+  text-align: left;
+ }
+ 
 .tour-top{
     margin-top: 18%!important;
    } 
