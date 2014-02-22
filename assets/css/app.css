@@ -347,7 +347,7 @@ margin-top: 18%!important;
       text-align: center;
    }
 .blog-fix-height {
-height: 110px!important;
+height: 50px!important;
 }
    #blog-signup h1{
       font-size: 25px;
@@ -779,7 +779,9 @@ background-size: contain;
 background-repeat: no-repeat;
 margin-top: 25px;
 }
-
+.blog-fix-height {
+height: 110px!important;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
