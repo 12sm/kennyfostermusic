@@ -346,7 +346,9 @@ margin-top: 18%!important;
       margin-bottom: 5px!important;
       text-align: center;
    }
-
+.blog-fix-height {
+height: 110px!important;
+}
    #blog-signup h1{
       font-size: 25px;
       margin-top: 5px!important;
