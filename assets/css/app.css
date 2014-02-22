@@ -160,13 +160,14 @@ background: none!important;
     height: 0px!important
    }
 
-   .slider-img{
+   .slider-img {
     height: 0px;
-    padding-bottom: 100%;
-    background-size: contain; 
+    padding-bottom: 30%;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-top: 20%;
-   }
+    background-position: 80%;
+}
 
 /* ==========================================================================
    Content
@@ -806,7 +807,9 @@ height: 110px!important;
  .vid-desc{
   text-align: left;
  }
-
+.slider-img{
+  padding-bottom: 100%;
+}
 .tour-top{
     margin-top: 18%!important;
    } 
