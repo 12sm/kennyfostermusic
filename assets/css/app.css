@@ -417,12 +417,13 @@ background-size: cover;
    ========================================================================== */
    .tour-dates{
     background: url('../img/KFTour.png');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 40%;
-  margin: 35px auto;
-  display: block;
-   }
+background-repeat: no-repeat;
+background-position: top center;
+background-size: 40%;
+margin: 35px auto;
+display: block;
+padding-top: 1%;
+}
 .tour-date>*{
   width: 100%!important;
 }
@@ -805,7 +806,7 @@ height: 110px!important;
  .vid-desc{
   text-align: left;
  }
- 
+
 .tour-top{
     margin-top: 18%!important;
    } 
