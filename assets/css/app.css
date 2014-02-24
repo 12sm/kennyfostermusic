@@ -92,7 +92,7 @@ p {
 
 h3 {
   line-height: 1.7;
-  font-family: 'Hooverville';
+  font-family: "viva-std";
   font-size:26px;
 }
 
@@ -507,7 +507,7 @@ padding-top: 1%;
 .bit-location{
   border-left: solid 1px #ffffff;
   border-right: solid 1px #FFFFFF!important;
-  font-family: 'Hooverville';
+  font-family: "viva-std";
   text-align: center!important;
 }
 .lineup{
