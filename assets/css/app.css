@@ -32,7 +32,7 @@ font-size: 18px;
 line-height: 1.5;
 }
 
-html {overflow-x:hidden;}
+html {overflow-x:hidden!important;}
 
 /* Twitter Widget Pro Styling */
 .widget_twitter div {
