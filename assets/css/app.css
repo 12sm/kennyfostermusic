@@ -27,7 +27,7 @@ background-color: black; }
   margin: 0 auto;
 }
 
-p{
+p {
 margin-top: 16px;
 font-size: 18px;
 line-height: 1.5;
@@ -79,30 +79,30 @@ line-height: 1.5;
     background-position: -96px center;
 }
 
-h1, h2, h3, p, a{
+h1, h2, h3, p, a {
   color: #FFFFFF!important;
 }
-h1{
+h1 {
   font-family: 'chaparral-pro';
 }
-p{
+p {
   font-family: 'chaparral-pro';
 }
 
-h3{
+h3 {
   line-height: 1.7;
   font-family: 'Hooverville';
   font-size:26px;
 }
 
 
-a{
+a {
   text-decoration: none;
 }
 /* ==========================================================================
-   Header
+   Header / Nav
    ========================================================================== */
-.nav li a{
+.nav li a {
   font-family: 'Haymaker';
 }
 
@@ -130,28 +130,19 @@ background-color: rgba(0, 0, 0, .3);
 .navbar-default {
 background-color: #000000;
 border:none!important;
-opacity:.3;
+opacity:.2;
+position:fixed;
+width:100%;
 }
 
 .navbar>.container .navbar-brand {
 display: none;
 }
 
-.navbar-default .navbar-nav>.active>a {
+li.active a {
 color: #F30;
 background: none!important;
 }
-
-
-/* ==========================================================================
-   Content
-   ========================================================================== */
-
-
-.content { }
-
-
-
 
 
 /* ==========================================================================
@@ -198,10 +189,12 @@ margin-top: 5px;
 
 
 /* ==========================================================================
-   Sidebar
+   Top Video & Logo
    ========================================================================== */
-
-.sidebar { }
+   
+.home-slider {
+padding-bottom:76%;
+}
 
 /* ==========================================================================
    About
@@ -222,7 +215,6 @@ margin-top: 5px;
   padding-bottom: 25%;
   background-image: url("../img/Continue-the-Story.png");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
   margin-top: -20px;
 }
