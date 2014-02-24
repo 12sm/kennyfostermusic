@@ -107,7 +107,7 @@ a {
   text-decoration: none;
 }
 
-.container-master {width:100%;height:auto;}
+.container-master {width:100%;height:auto;padding:0;}
 
 /* ==========================================================================
    Header / Nav
