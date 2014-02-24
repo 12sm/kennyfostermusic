@@ -692,7 +692,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 	
 .navbar-default {
 opacity: 1;
-}	
+}
+
+#menu-primary-navigation {
+float: none!important;
+text-align: center;
+}
 	
 }
 
