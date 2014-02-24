@@ -237,7 +237,7 @@ background: none!important;
   background-image:url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/who-is.png);
 }
 
-body > div.wrap.container-fluid > div > main > div > div.col-lg-6 > div > div > img {
+.who-is-kenny-foster-img {
 margin-left: -45px;
 }
 
