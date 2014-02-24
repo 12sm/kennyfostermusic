@@ -160,7 +160,8 @@ background: none!important;
     background-repeat: no-repeat;
     padding-bottom: 80%;
     height: 0px!important;
-	margin-top: -10px;
+	margin-top: -100px; /* this may need to change when we put the actual video in */
+	padding-bottom:76%;
    }
 
    .slider-img {
