@@ -371,46 +371,53 @@ margin-top: 18%!important;
 /* ==========================================================================
     Blog
    ========================================================================== */
-   #blog-signup{
-    padding-bottom: 13%;
-   }   
+#blog-signup {
+padding-bottom: 2%;
+padding-top: 16%;
+}
 
-   #blog-signup h2{
-      font-size: 20px;
-      margin-bottom: 5px!important;
-      text-align: center;
-   }
+form.email-signup {
+padding-bottom: 30%;
+}
+
+#blog-signup h2{
+font-size: 20px;
+margin-bottom: 5px!important;
+text-align: center;
+}
+
 .blog-fix-height {
 height: 50px!important;
 }
-   #blog-signup h1{
+
+#blog-signup h1{
       font-size: 25px;
       margin-top: 5px!important;
       text-align: center;
-   }
+}
 
-  .blog-title{
+.blog-title{
     text-align: center;
-  }
+}
 
-  .blog-img{
+.blog-img{
     padding: 21% 10%;
     border: solid #FFFFFF 3px;
     background-size: cover;
-  }
+}
 
 .post-preview {
 background: rgba(0, 0, 0, .5);
 height: 327px;
 }
 
-  .email-gray{
+.email-gray{
     border-radius: 0px!important;
     border: 0px solid rgba(0,0,0,0)!important;
     background-color: rgba(208,195,176,.4)
-  }
+}
 
-  input::-webkit-input-placeholder { /* WebKit browsers */
+input::-webkit-input-placeholder { /* WebKit browsers */
     color:    #FFFFFF!important;
 }
 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
