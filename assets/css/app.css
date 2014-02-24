@@ -22,16 +22,16 @@
 
 body {
 background-color: black; }
-.container-fluid .row{
+/*.container-fluid .row{
   max-width: 1170px;
-  margin: 0 auto;
-}
+}*/
 
-p {
+p{
 margin-top: 16px;
 font-size: 18px;
 line-height: 1.5;
 }
+
 
 
 /* Twitter Widget Pro Styling */
@@ -79,30 +79,37 @@ line-height: 1.5;
     background-position: -96px center;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a{
   color: #FFFFFF!important;
 }
-h1 {
+h1{
   font-family: 'chaparral-pro';
+  font-size: 25px;
 }
-p {
+p{
   font-family: 'chaparral-pro';
 }
 
-h3 {
+h3{
   line-height: 1.7;
   font-family: 'Hooverville';
   font-size:26px;
 }
 
+h4{
+  font-family: 'chaparral-pro', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  text-align: center;
+}
 
-a {
+a{
   text-decoration: none;
 }
 /* ==========================================================================
-   Header / Nav
+   Header
    ========================================================================== */
-.nav li a {
+.nav li a{
   font-family: 'Haymaker';
 }
 
@@ -130,27 +137,152 @@ background-color: rgba(0, 0, 0, .3);
 .navbar-default {
 background-color: #000000;
 border:none!important;
-opacity:.2;
-position:fixed;
-width:100%;
+opacity:.3;
 }
 
 .navbar>.container .navbar-brand {
 display: none;
 }
 
-li.active a {
+.navbar-default .navbar-nav>.active>a {
 color: #F30;
 background: none!important;
 }
 
+/* ==========================================================================
+   Home
+   ========================================================================== */
+   .home-slider{
+    background-image: url(../img/kenny_final_flat_sharp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 80%;
+    height: 0px!important
+   }
+
+   .slider-img {
+    height: 0px;
+    padding-bottom: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    background-position: 80%;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+
+.content { }
+
+/* ==========================================================================
+   Store
+   ========================================================================== */
+.store{
+  background-image: url(../img/desert-lg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.store-img{
+  height: 0px!important;
+  background-size: contain;
+  padding-bottom: 30%;
+  background-repeat: no-repeat;
+}
+
+.store-txt{
+  background-image: url(../img/KF---Arrows-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+}
 
 /* ==========================================================================
    Primary Content
    ========================================================================== */
+
+.main { }
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+
+.centered{
+  text-align: center;
+}
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.who-is-kf{
+  height: 0px;
+  padding-bottom: 40%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: -30px;
+}
+
+.story{
+  height: 0px;
+  padding-bottom: 25%;
+  background-image: url("../img/Continue-the-Story.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: -20px;
+}
+
+.about-page h3{
+  margin-top: 20px;
+  line-height: 2;
+}
+
+h3.centered i {
+font-family:'chaparral-pro', serif;
+line-height:1.4em;
+}
+
+.about{
+  background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
+background-repeat: no-repeat;
+}
+/* ==========================================================================
+   Video
+   ========================================================================== */
+
+h1.centered {
+font-family: Hooverville;
+}
+
+.col-sm-4.video-description {
+height: 400px;
+overflow: scroll;
+padding: 0;
+}
+.video{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vid-desc>p{
+  font-size: 14px;
+  line-height: 1.1;
+}
 .vid-back{
   padding: 3% 5%;
-  background: gray;
+  background-image: url(../img/Black-Background.png);
+  background-size: contain;
+  border: solid 3px rgba(0,0,0, .1);
+  border-radius: 5px;
 }
 .vid-line{
   height: 0px!important;
@@ -178,81 +310,17 @@ margin-top: 5px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-.main { }
-
-/* Gallery Shortcode */
-.gallery-row { padding: 15px 0; }
-
-.centered{
+.vid-desc{
   text-align: center;
-}
-
-
-/* ==========================================================================
-   Top Video & Logo
-   ========================================================================== */
-   
-.home-slider {
-padding-bottom:76%;
-}
-
-/* ==========================================================================
-   About
-   ========================================================================== */
-
-.who-is-kf{
-  height: 0px;
-  padding-bottom: 40%;
-  background-image: url("../img/who-is.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin-top: -30px;
-}
-
-.story{
-  height: 0px;
-  padding-bottom: 25%;
-  background-image: url("../img/Continue-the-Story.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: -20px;
-}
-
-.container-fluid.about-page {
-background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
-background-repeat: no-repeat;
-}
-
-.about-page h3{
-  margin-top: 20px;
-  line-height: 2;
-}
-
-h3.centered i {
-font-family:'chaparral-pro', serif;
-line-height:1.4em;
-}
-
-/* ==========================================================================
-   Video
-   ========================================================================== */
-
-h1.centered {
-font-family: Hooverville;
-}
-
-.col-sm-4.video-description {
-height: 400px;
-overflow: scroll;
-padding: 0;
-}
-
+ }
+ .vid-read{
+  text-align: center;
+ }
 /* ==========================================================================
    Tour
    ========================================================================== */
 
-.wrap.container-fluid.tour {
+.tour {
 background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/desert-lg1.jpg);
 border: none;
 background-size: cover;
@@ -285,7 +353,9 @@ margin-top: 18%!important;
       margin-bottom: 5px!important;
       text-align: center;
    }
-
+.blog-fix-height {
+height: 50px!important;
+}
    #blog-signup h1{
       font-size: 25px;
       margin-top: 5px!important;
@@ -334,35 +404,27 @@ hr{
   color: #FFFFFF!important;
 }
 
-.container-fluid.blog-page {
+.blog-page {
 background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/ozarks-lg.jpg);
 background-size: cover;
 }
 
 .row.blog-posts {
-height: 159px;
+/*height: 159px;*/
 }
-
-/* ==========================================================================
-   Git yer Garb
-   ========================================================================== */
-   
-  .store {
-height: 400px;
-}
-   
 
 /* ==========================================================================
    Tour Page
    ========================================================================== */
    .tour-dates{
     background: url('../img/KFTour.png');
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 40%;
-  margin: 35px auto;
-  display: block;
-   }
+background-repeat: no-repeat;
+background-position: top center;
+background-size: 40%;
+margin: 35px auto;
+display: block;
+padding-top: 1%;
+}
 .tour-date>*{
   width: 100%!important;
 }
@@ -590,6 +652,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   margin-top: -60px!important;
 }
 
+.who-is-kf{
+  margin-top: -10px;
+}
 .story{
    margin-top: -45px;
  }
@@ -725,7 +790,9 @@ background-size: contain;
 background-repeat: no-repeat;
 margin-top: 25px;
 }
-
+.blog-fix-height {
+height: 110px!important;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -740,8 +807,12 @@ margin-top: 25px;
   background-position: left top;
   padding-top: 0px;
 }
+ .vid-desc{
+  text-align: left;
+ }
+.slider-img{
+  padding-bottom: 100%;
 }
-
 .tour-top{
     margin-top: 18%!important;
    } 
