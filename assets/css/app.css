@@ -399,9 +399,9 @@ height: 50px!important;
     background-size: cover;
   }
 
-  .blog-posts{
-    background-color: rgba(0,0,0,.5);
-  }
+.post-preview {
+background: rgba(0, 0, 0, .2);
+}
 
   .email-gray{
     border-radius: 0px!important;
