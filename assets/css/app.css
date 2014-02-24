@@ -811,9 +811,13 @@ font-family: 'Old-Western'!important;
 
 .hammer>h3{
 font-family: 'Old-Western'!important;
+font-size:32px!important;
+opacity:.2;
 }
 .afoot>h3{
 font-family: 'Old-Western'!important;
+font-size:32px!important;
+opacity:.2;
 }
 .next-show>h2{
 font-family: 'Old-Western'!important;
