@@ -261,11 +261,10 @@ line-height:1.4em;
 }
 
 .about{
-background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg) no-repeat center center fixed;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-attachment: fixed;
 
 }
 
