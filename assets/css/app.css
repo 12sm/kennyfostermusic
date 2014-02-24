@@ -79,35 +79,35 @@ line-height: 1.5;
     background-position: -96px center;
 }
 
-h1, h2, h3, p, a{
+h1, h2, h3, p, a {
   color: #FFFFFF!important;
 }
-h1{
+h1 {
   font-family: 'chaparral-pro';
   font-size: 25px;
 }
-p{
+p {
   font-family: 'chaparral-pro';
 }
 
-h3{
+h3 {
   line-height: 1.7;
   font-family: 'Hooverville';
   font-size:26px;
 }
 
-h4{
+h4 {
   font-family: 'chaparral-pro', serif;
   font-size: 25px;
   color: #FFFFFF;
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 /* ==========================================================================
-   Header
+   Header / Nav
    ========================================================================== */
 .nav li a{
   font-family: 'Haymaker';
@@ -138,6 +138,8 @@ background-color: rgba(0, 0, 0, .3);
 background-color: #000000;
 border:none!important;
 opacity:.3;
+position: fixed;
+width: 100%;
 }
 
 .navbar>.container .navbar-brand {
