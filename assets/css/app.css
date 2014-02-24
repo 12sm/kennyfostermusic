@@ -234,6 +234,11 @@ background: none!important;
   background-size: contain;
   background-position: center;
   margin-top: -30px;
+  background-image:url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/who-is.png);
+}
+
+body > div.wrap.container-fluid > div > main > div > div.col-lg-6 > div > div > img {
+margin-left: -45px;
 }
 
 .story{
