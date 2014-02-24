@@ -159,7 +159,8 @@ background: none!important;
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 80%;
-    height: 0px!important
+    height: 0px!important;
+	margin-top: -10px;
    }
 
    .slider-img {
