@@ -1022,7 +1022,7 @@ text-indent: -999999px;
 }
 
 .flex-direction-nav .flex-prev {
- left: 20px; 
+ left: 11%; 
  height: 0;
  padding-bottom: 3%;
  background-image: url(../img/vid-prev.png);
@@ -1031,7 +1031,7 @@ text-indent: -999999px;
 }
  
 .flex-direction-nav .flex-next { 
-  right: 20px;  
+  right: 11%;  
   height: 0;
   padding-bottom: 3%;
   background-image: url(../img/vid-next.png);
