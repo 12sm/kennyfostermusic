@@ -149,9 +149,7 @@ background-color: rgba(0, 0, 0, .3);
 }
 
 .navbar-default {
-background-color: #000000;
 border:none!important;
-opacity:.3;
 position: fixed;
 width: 100%;
 }
