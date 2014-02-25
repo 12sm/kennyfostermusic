@@ -456,11 +456,8 @@ hr{
 
 .blog-page {
 background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/ozarks-lg.jpg);
-background-position:center;
-background-attachment:fixed;
+background-position:fixed;
 opacity:.3;
-height:auto;
-width:100%;
 }
 
 .row.blog-posts {
