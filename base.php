@@ -18,7 +18,7 @@
   ?>
  
   <div class="wrap container-fluid" role="document">
-    <div class="content row">
+    <div class="content">
       <main class="main col-sm-12" role="main">
       
       
