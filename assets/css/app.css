@@ -459,6 +459,8 @@ background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/201
 background-position:center;
 background-attachment:fixed;
 opacity:.3;
+height:auto;
+width:100%;
 }
 
 .row.blog-posts {
