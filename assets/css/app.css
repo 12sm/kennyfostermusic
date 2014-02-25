@@ -287,6 +287,7 @@ background-attachment: fixed;
 background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/Bar.jpg) top center no-repeat;
 background-size: cover;
 background-attachment: fixed;
+padding: 10% 0px;
 }
 
 .full-bio {
@@ -429,8 +430,8 @@ height: 50px!important;
 }
 
 .post-preview {
-background: rgba(41, 26, 26, .5);
 height: 327px;
+padding: 0px 25px;
 }
 
 .email-gray{
@@ -464,11 +465,13 @@ hr{
 
 .blog-page {
 background-image: url(../img/ozarks-lg.jpg);
-background-size:cover;
+background-size: cover;
+padding: 5% 0px 0px 0px;
+overflow: hidden;
 }
 
 .row.blog-posts {
-/*height: 159px;*/
+background:rgba(41, 26, 26, .5);
 padding: 0px 40px;
 }
 
