@@ -109,6 +109,12 @@ a {
 
 .container-master {width:100%;height:auto;padding:0;}
 
+p.credits {
+font-size:9px;
+opacity:.2;
+font-family:arial, sans-serif;
+}
+
 /* ==========================================================================
    Header / Nav
    ========================================================================== */
