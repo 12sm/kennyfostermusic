@@ -157,6 +157,7 @@ background-color: rgba(0, 0, 0, .3);
 border:none!important;
 position: fixed;
 width: 100%;
+top: 0;
 }
 
 .navbar>.container .navbar-brand {
