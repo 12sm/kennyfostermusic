@@ -407,6 +407,16 @@ form.email-signup {
 padding-bottom: 30%;
 }
 
+.btn-default {
+color: #FFF;
+font-family: "chapparel-pro";
+font-size: 18px;
+background: rgba(0, 0, 0, .3);
+margin: 0 auto!important;
+text-align: center!important;
+width: 100%;
+}
+
 #blog-signup h2{
 font-size: 20px;
 margin-bottom: 5px!important;
