@@ -123,8 +123,13 @@ footer {
 /* ==========================================================================
    Header / Nav
    ========================================================================== */
-.nav li a{
-  font-family: 'Haymaker';
+.nav li a {
+font-family: 'Haymaker';
+font-size: 12px;
+}
+
+.nav li a:hover {
+color:red;
 }
 
 .banner {
