@@ -389,13 +389,13 @@ background-attachment: fixed;
 }
 
 .video-thumbnail-internal {
-	width:100%;
-	height:100px;
-	background:#CCC;
-	color:black;
-	font-size:18px;
-	text-align:center;
-	padding:50% 50%;
+width: 25%;
+height: 100px;
+background: #CCC;
+color: black;
+font-size: 18px;
+text-align: center;
+border: 1px solid black;
  }
  
 /* ==========================================================================
