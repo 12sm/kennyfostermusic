@@ -391,11 +391,9 @@ margin-bottom:10px;
 
 .video-thumbnail-internal {
 height: auto;
-background: #CCC;
 color: black;
 font-size: 18px;
 text-align: center;
-border: 1px solid black;
  }
  
 .video-thumbnail-internal img {
