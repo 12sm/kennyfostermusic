@@ -399,8 +399,12 @@ border: 1px solid black;
  }
  
 .video-thumbnail-internal img {
-width:100%; 
- }
+width: 100%;
+border: 1px solid #562922;
+max-height: 120px;
+min-height: 120px;
+}
+ 
  
 /* ==========================================================================
    Tour
