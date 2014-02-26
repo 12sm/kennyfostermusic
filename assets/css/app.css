@@ -386,11 +386,12 @@ overflow-x: hidden;
  .video {
 background-repeat: no-repeat;
 background-attachment: fixed;
+margin-bottom:10px;
 }
 
 .video-thumbnail-internal {
 width: 25%;
-height: 100px;
+height: auto;
 background: #CCC;
 color: black;
 font-size: 18px;
