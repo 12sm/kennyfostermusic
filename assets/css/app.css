@@ -515,6 +515,14 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 }
 
+body > div.wrap.container-fluid > div > main > form {
+margin-top: -105px;
+}
+
+body > div.wrap.container-fluid > div > main > div.row.blog-posts-internal > div {
+margin-top: 100px;
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
