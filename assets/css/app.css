@@ -499,10 +499,10 @@ hr{
 }
 
 .blog-page {
-/* background-image: url(../img/ozarks-lg.jpg);
+background-image: url(../img/ozarks-lg.jpg);
 background-size: cover;
 padding: 5% 0px 0px 0px;
-overflow: hidden; */
+overflow: hidden;
 }
 
 .row.blog-posts-internal {
