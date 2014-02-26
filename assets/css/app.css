@@ -505,7 +505,7 @@ padding: 5% 0px 0px 0px;
 overflow: hidden; */
 }
 
-.row.blog-posts {
+.row.blog-posts-internal {
 background: rgba(30, 15, 9, .4);
 padding: 0px 80px;
 top: 10px;
