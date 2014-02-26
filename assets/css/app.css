@@ -209,6 +209,10 @@ background: none!important;
   height:400px;
 }
 
+.store .col-lg-6 {
+padding: 5% 1%;
+}
+
 .store-img{
   height: 0px!important;
   background-size: contain;
