@@ -388,7 +388,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
- video-thumbnail-internal {
+.video-thumbnail-internal {
 	width:100%;
 	height:100px;
 	background:#CCC;
