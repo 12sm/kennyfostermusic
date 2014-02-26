@@ -523,6 +523,10 @@ body > div.wrap.container-fluid > div > main > div.row.blog-posts-internal > div
 margin-top: 100px;
 }
 
+.blog-post-individual-internal {
+background: rgba(53, 32, 18, 0.9);
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
