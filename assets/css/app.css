@@ -405,16 +405,11 @@ max-height: 120px;
 min-height: 120px;
 }
 
-span.thumb-descript {
+span.thumb-title {
 font-family:arial, helvetica, sans-serif;
 color:#78534E;
 font-size:10px;
 }
-
-.video-thumbnail-internal a span.thumb-title {
-display:none;	
-}
-
 
  
 /* ==========================================================================
