@@ -406,9 +406,14 @@ min-height: 120px;
 }
 
 span.thumb-title {
-font-family:arial, helvetica, sans-serif;
-color:#78534E;
-font-size:10px;
+font-family: arial, helvetica, sans-serif;
+color: #4E3E3C;
+font-size: 13px;
+line-height: 1.1em;
+}
+
+span.thumb-title a:hover {
+text-decoration:none;
 }
 
  
