@@ -411,14 +411,10 @@ color:#78534E;
 font-size:10px;
 }
 
-.video-thumbnail-internal a span.thumb-descript {
+.video-thumbnail-internal a span.thumb-title {
 display:none;	
 }
 
-.video-thumbnail-internal a span.thumb-descript:hover {
-display: block;
-margin-top: -100px;
-background: red;}
 
  
 /* ==========================================================================
