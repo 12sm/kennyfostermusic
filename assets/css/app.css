@@ -374,6 +374,11 @@ margin-top: 5px;
  
  .video-description h1 {font-size:35px; font-family: "viva-std";}
  
+ 
+ .video-page-featured-video {
+	margin-top:4%; 
+ }
+ 
 /* ==========================================================================
    Tour
    ========================================================================== */
