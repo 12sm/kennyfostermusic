@@ -412,7 +412,7 @@ font-size: 13px;
 line-height: 1.1em;
 }
 
-span.thumb-title a:hover {
+a span.thumb-title:hover {
 text-decoration:none;
 }
 
