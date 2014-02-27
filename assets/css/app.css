@@ -433,6 +433,14 @@ background-attachment: fixed;
 margin-top: 18%!important;
 }
 
+.bit-notify {
+border-bottom: 3px double #FFF;
+font-family: 'Old-Western'!important;
+font-size: 27px;
+color: #FFF;
+background: rgba(255,255,255,.2);
+}
+
 
 /* ==========================================================================
    Posts
