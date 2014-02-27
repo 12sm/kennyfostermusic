@@ -441,7 +441,7 @@ color: #FFF!important;
 background: rgba(255,255,255,.2)!important;
 }
 
-.bit-invert {display:none;}
+#bit-events a.bit-track-artist-header .bit-invert {display:none;}
 
 
 /* ==========================================================================
