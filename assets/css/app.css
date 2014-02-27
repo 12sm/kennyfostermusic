@@ -434,12 +434,14 @@ margin-top: 18%!important;
 }
 
 .bit-notify {
-border-bottom: 3px double #FFF;
+border-bottom: 3px double #FFF!important;
 font-family: 'Old-Western'!important;
-font-size: 27px;
-color: #FFF;
-background: rgba(255,255,255,.2);
+font-size: 27px!important;
+color: #FFF!important;
+background: rgba(255,255,255,.2)!important;
 }
+
+.bit-invert {display:none;}
 
 
 /* ==========================================================================
