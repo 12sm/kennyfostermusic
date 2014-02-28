@@ -174,7 +174,7 @@ background: none!important;
    ========================================================================== */
    .home-slider{
     background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/kenny_final_flat_sharp-xs.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 80%;
     height: 0px!important;
