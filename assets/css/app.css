@@ -853,7 +853,7 @@ border: none!important;
 top: -360px!important;
 }
 
-.flexslider {height:700px;}
+.flexslider {height:700px!important;}
 
 .video-description h1 {
 font-size: 20px;
