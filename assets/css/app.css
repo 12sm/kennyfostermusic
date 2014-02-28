@@ -1010,7 +1010,7 @@ height: 110px!important;
 
 .flex-direction-nav {
 position: relative;
-top: -40px;
+top: -40px!important;
 }
 
 }
