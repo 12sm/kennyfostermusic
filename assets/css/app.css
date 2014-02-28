@@ -807,7 +807,9 @@ display: inline;
 padding:0px 20px!important;
 }
 
-
+body > div.wrap.container-fluid > div > footer > div > div > div.row.footer-nav {
+margin-bottom: -30px;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
