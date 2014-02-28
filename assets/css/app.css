@@ -1016,10 +1016,7 @@ height: 110px!important;
 text-align: left;
  }
 
-.flex-direction-nav {
-position: relative;
-top: -40px;
-}
+
 
 }
 /* Large devices (large desktops, 1200px and up) */
@@ -1039,6 +1036,11 @@ top: -40px;
 .tour-top{
     margin-top: 18%!important;
    } 
+   
+   .flex-direction-nav {
+position: relative;
+top: -40px;
+}
  }
  
  
