@@ -867,7 +867,9 @@ text-align: center;
    margin-top: -45px;
  }
 
-
+ .vid-desc{
+  text-align: left;
+ }
 
 .tour-top{
     margin-top: 14%!important;
@@ -1009,6 +1011,10 @@ height: 110px!important;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+	
+.vid-desc{
+  text-align: left;
+ }
 
 }
 /* Large devices (large desktops, 1200px and up) */
