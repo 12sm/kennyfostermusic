@@ -116,7 +116,7 @@ font-family:arial, sans-serif;
 }
 
 footer {
-	background-color:#1e1008;
+	/*background-color:#1e1008;*/
 	padding: 10px 0px;
 }
 
@@ -442,6 +442,10 @@ background: rgba(255,255,255,.2)!important;
 
 #bit-events a.bit-track-artist-header .bit-invert {display:none!important;}
 
+#bit-events > a {
+margin-left: -15px;
+margin-right: -15px;
+}
 
 /* ==========================================================================
    Posts
