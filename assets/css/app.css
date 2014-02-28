@@ -1013,8 +1013,13 @@ height: 110px!important;
 @media (min-width:992px) {
 	
 .vid-desc{
-  text-align: left;
+text-align: left;
  }
+
+.flex-direction-nav {
+position: relative;
+top: -40px;
+}
 
 }
 /* Large devices (large desktops, 1200px and up) */
