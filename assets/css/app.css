@@ -840,6 +840,12 @@ opacity: 1;
 float: none!important;
 text-align: center;
 }
+
+.vid-back {
+padding: 3% 1%;
+background-image: none!important;
+border: none!important;
+}
 	
 }
 
