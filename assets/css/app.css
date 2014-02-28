@@ -1013,6 +1013,10 @@ position: relative;
 top: -40px!important;
 }
 
+.video-description h1 {
+font-size: 22px;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
