@@ -1007,6 +1007,12 @@ margin-top: 25px;
 .blog-fix-height {
 height: 110px!important;
 }
+
+.flex-direction-nav {
+position: relative;
+top: -40px;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1015,8 +1021,6 @@ height: 110px!important;
 .vid-desc{
 text-align: left;
  }
-
-
 
 }
 /* Large devices (large desktops, 1200px and up) */
@@ -1036,11 +1040,6 @@ text-align: left;
 .tour-top{
     margin-top: 18%!important;
    } 
-   
-   .flex-direction-nav {
-position: relative;
-top: -40px;
-}
  }
  
  
