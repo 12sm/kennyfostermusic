@@ -43,6 +43,10 @@ html {overflow-x:hidden!important;}
     margin-bottom:5px;
 }
 
+.page-header{
+  display: none!important;
+}
+
 .widget_twitter .follow-button,
 .widget_twitter .xavisys-link {
     margin:0 10px 10px 25px;
