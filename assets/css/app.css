@@ -374,6 +374,7 @@ overflow: scroll;
 height: 400px;
 margin: 0px;
 overflow-x: hidden;
+overflow-y: auto; 
  }
  
  .video-description h1 {font-size:35px; font-family: "viva-std";}
