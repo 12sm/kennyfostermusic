@@ -40,8 +40,8 @@ var ExampleSite = {
       itemSelector: '.blog-post-individual-internal'
       });
     }
+  },
 };
-
 
 var UTIL = {
   fire: function(func, funcname, args) {
