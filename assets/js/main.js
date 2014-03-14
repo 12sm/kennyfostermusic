@@ -29,7 +29,7 @@ var ExampleSite = {
   video: {
     init: function() {
       console.log("I'm firing fro the video section")
-  var owl = $("#album-carousel");
+  var owl = $("#owl-carousel");
      owl.owlCarousel({
        itemsCustom : [
        [0, 2],
