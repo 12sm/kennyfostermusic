@@ -579,6 +579,11 @@ background: rgba(53, 32, 18, 0.9);
 background: rgba(30, 15, 9, .4);
 }
 
+.blog-post-individual-internal {
+background-image: url(../img/blog-text-bg.jpg);
+background-repeat: repeat;
+}
+
 
 /* ==========================================================================
    Tour Page
