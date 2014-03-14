@@ -8,7 +8,7 @@ var ExampleSite = {
       // JS here
       
       $("#owl-carousel").owlCarousel({
-          items: 3,
+          items: 3, });
       //Code for Bandsintown Refresh
       var windowsize = $(window).width();
 
