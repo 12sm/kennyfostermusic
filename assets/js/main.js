@@ -7,6 +7,8 @@ var ExampleSite = {
     init: function() {
       // JS here
       
+      $("#owl-carousel").owlCarousel({
+          items: 3,
       //Code for Bandsintown Refresh
       var windowsize = $(window).width();
 
@@ -28,6 +30,7 @@ var ExampleSite = {
 //Video page
   video: {
     init: function() {
+      console.log("I'm firing fro the video section")
   $("#owl-carousel").owlCarousel({
           items: 3,
   });
