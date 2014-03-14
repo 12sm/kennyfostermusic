@@ -19,9 +19,7 @@
  
   <div class="wrap container-fluid" role="document">
     <div class="content">
-      <main class="main col-sm-12" role="main">
-      
-      
+      <main class="main col-sm-12" role="main">     
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
       <!--<?php if (roots_display_sidebar()) : ?>
