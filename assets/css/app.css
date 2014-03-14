@@ -26,6 +26,8 @@ background-color: #1e1008; }
   max-width: 1170px;
 }*/
 
+body .page-header {display:none;}
+
 p{
 margin-top: 16px;
 font-size: 18px;
