@@ -22,7 +22,6 @@
       <main class="main col-sm-12" role="main">     
         <?php include roots_template_path(); ?>
       </main>
-      <?php endif; ?>
       </div>
     </div>
 </main>
