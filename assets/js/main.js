@@ -62,6 +62,17 @@ var ExampleSite = {
       });
     }
   },
+  photos: {
+	init: function() {
+	
+	$('.insta-grid').embedagram({
+       	instagram_id: 208622569,
+       	thumb_width: 306,
+       	limit: 20
+      });	
+	
+	}  
+  }
 }
 
 var UTIL = {
