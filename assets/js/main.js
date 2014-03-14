@@ -33,13 +33,13 @@ var ExampleSite = {
   },
 
   blog: {
- var $container = $('.blog-posts-internal');
-// initialize
-$container.masonry({
-  itemSelector: '.blog-post-individual-internal'
-  });
-}
-
+    init: function() {
+    var $container = $('.blog-posts-internal');
+    // initialize
+    $container.masonry({
+      itemSelector: '.blog-post-individual-internal'
+      });
+    }
 };
 
 
