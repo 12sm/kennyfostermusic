@@ -1015,6 +1015,12 @@ text-align: left;
   height: 85px;
 }
 
+.blog-post-individual-internal {
+background-image: url(../img/blog-text-bg.jpg);
+background-repeat: repeat;
+}
+
+
 .video-back {padding-bottom: 48%;}
 
 
