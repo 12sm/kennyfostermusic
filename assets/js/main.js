@@ -41,7 +41,7 @@ var ExampleSite = {
       });
     }
   },
-};
+}
 
 var UTIL = {
   fire: function(func, funcname, args) {
