@@ -609,7 +609,7 @@ height: 50px!important;
     text-align: center;
 }
 
-body.blog .blog-title {text-align:left;height:auto;}
+body.blog .blog-title {text-align:left;height:auto;color:#FFF;}
 
 .blog-img{
     padding: 21% 10%;
@@ -646,8 +646,8 @@ hr{
 }
 
 .blog-title a{
-  color: #000!important;
-  font-family:"viva-std"!important;
+  color: #FFF;
+  font-family:"chaparrel-pro"!important;
 }
 
 .blog-page {
