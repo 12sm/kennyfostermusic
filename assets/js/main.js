@@ -7,8 +7,6 @@ var ExampleSite = {
     init: function() {
       // JS here
       
-      $("#owl-carousel").owlCarousel({
-          items: 3, });
       //Code for Bandsintown Refresh
       var windowsize = $(window).width();
 
@@ -31,9 +29,20 @@ var ExampleSite = {
   video: {
     init: function() {
       console.log("I'm firing fro the video section")
-  $("#owl-carousel").owlCarousel({
-          items: 3,
-  });
+  var owl = $("#album-carousel");
+     owl.owlCarousel({
+       itemsCustom : [
+       [0, 2],
+       [480, 3],
+       [768, 4],
+       [1200, 5],
+       [1600, 6]
+       ],
+       navigation : true,
+       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       pagination: false,
+       scrollPerPage : true
+      });
   }
 },
 
