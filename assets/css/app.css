@@ -412,7 +412,22 @@ background-repeat: no-repeat;
 background-size: cover;
 padding: 1% 0px 0.4% 0px;
 }
-
+.row .video{
+  height: 0px;
+width: 100%;
+padding-bottom: 60%;
+display: block;
+position: relative;
+top: 0px;
+background-size: cover;
+margin-top: -11%;
+-webkit-filter: blur(10px);
+-moz-filter: blur(10px);
+-o-filter: blur(10px);
+-ms-filter: blur(10px);
+filter: blur(10px);
+opacity: 0.7;
+}
 .video-back {
 height: 0px;
 width: 100%;
@@ -434,7 +449,9 @@ margin-top: -11%;
 margin-top: -50%;
 margin-bottom: 35%;
 }
-
+.video-content-internal{
+  margin-top: -50%;
+}
 .vid-desc>p{
   font-size: 14px;
   line-height: 1.1;
