@@ -25,6 +25,14 @@ var ExampleSite = {
       
     }
   },
+//Video page
+  video: {
+    $(document).ready(function() {
+ 
+  $(".owl-carousel").owlCarousel();
+});
+  }
+
   // About page
   about: {
     init: function() {
