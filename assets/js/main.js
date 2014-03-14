@@ -28,7 +28,9 @@ var ExampleSite = {
 //Video page
   video: {
     init: function() {
-  $(".owl-carousel").owlCarousel();
+  $("#owl-carousel").owlCarousel({
+          items: 3,
+  });
   }
 },
 
