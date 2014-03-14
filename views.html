@@ -106,6 +106,38 @@
 [/wpv-posts-found]
 [wpv-no-posts-found][wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string][/wpv-no-posts-found]
 [wpv-layout-end]
+<!--VIDEO Carousel-->
+[wpv-layout-start]
+  [wpv-items-found]
+
+          
+<div class="container">
+  <div class="row">
+      <div id="owl-carousel">
+        <!-- wpv-loop-start -->
+    <wpv-loop>
+        <div class="video-thumbnail-internal">
+          <a href="[types field="video-url" output="raw"][/types]">
+            [wpv-if feat="wpcf-featured-image" evaluate="$feat=empty"][/wpv-if]
+          [types field="featured-image" align="none" resize="proportional"][/types]
+            <span class="thumb-title">[wpv-post-title]</span>
+          </a>
+        </div>
+        </wpv-loop>
+      <!-- wpv-loop-end -->
+  </div>
+  </div>
+</div>
+
+          
+          
+
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
+
 
 
 <!--TOUR SHIT-->[wpv-layout-start]
