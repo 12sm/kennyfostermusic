@@ -157,7 +157,6 @@ var Roots = {
 //Video page
   video: {
     init: function() {
-      console.log("I'm firing from the video section")
       $("#owl-carousel").owlCarousel({
        itemsCustom : [
        [0, 2],
