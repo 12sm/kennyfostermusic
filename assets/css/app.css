@@ -322,7 +322,9 @@ padding: 5% 1%;
   padding-bottom: 30%;
   background-repeat: no-repeat;
 }
-
+.alt-height{
+  height: 360px;
+}
 .store-txt{
   background-image: url(../img/KF---Arrows-2.png);
   background-size: contain;
