@@ -33,7 +33,7 @@ var ExampleSite = {
   },
 
   blog: {
-    var $container = $('.blog-posts-internal');
+ $container = $('.blog-posts-internal');
 // initialize
 $container.masonry({
   itemSelector: '.blog-post-individual-internal'
