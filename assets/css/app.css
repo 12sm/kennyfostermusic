@@ -26,6 +26,11 @@ background-color: #1e1008;
 
 body .page-header {display:none;}
 
+.col img,
+.img-res {width:100%; max-width:100%; height:auto;}
+
+.col {margin:0 1%;}
+
 p{
 margin-top: 16px;
 font-size: 18px;
@@ -847,6 +852,9 @@ padding:0px 10px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.col,
+.post-nav {margin:0 10%;}
 
 .flexslider {height:700px;}
 
