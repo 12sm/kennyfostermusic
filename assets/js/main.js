@@ -27,11 +27,13 @@ var ExampleSite = {
   },
 //Video page
   video: {
+    init: function() {
     $(document).ready(function() {
  
   $(".owl-carousel").owlCarousel();
 });
   }
+},
 
   // About page
   about: {
