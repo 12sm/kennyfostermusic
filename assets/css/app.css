@@ -1044,6 +1044,9 @@ font-size: 22px;
 .vid-desc{
 text-align: left;
  }
+.blog-title{
+  height: 85px;
+}
 
 }
 /* Large devices (large desktops, 1200px and up) */
