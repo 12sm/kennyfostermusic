@@ -1048,6 +1048,9 @@ text-align: left;
   height: 85px;
 }
 
+.video-back {padding-bottom: 48%;}
+
+
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
