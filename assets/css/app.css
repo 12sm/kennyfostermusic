@@ -471,7 +471,9 @@ padding: 3%;
 form.email-signup {
 padding-bottom: 30%;
 }
-
+.excerpt{
+margin: 0 10px;
+}
 .btn-default {
 color: #FFF;
 border:none;
