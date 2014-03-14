@@ -684,6 +684,29 @@ display: none!important;
 position:fixed;   
    }
    
+   
+
+/* ==========================================================================
+   Instagram Feed [Photos Page]
+   ========================================================================== */
+  
+  
+body.photos .insta-grid {padding:0px; margin:0px;}
+
+body.photos .insta-grid li a {
+display: block;
+float: left;
+width: 50%;	
+}
+
+body.photos .insta-grid li a img {
+width:100%;
+max-width:100%;
+height:auto;
+}
+   
+   
+   
 /* ==========================================================================
    Footer
    ========================================================================== */
