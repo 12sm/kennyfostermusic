@@ -6,7 +6,7 @@ var ExampleSite = {
   common: {
     init: function() {
       // JS here
-      
+      console.log("Main.js works")
       //Code for Bandsintown Refresh
       var windowsize = $(window).width();
 
