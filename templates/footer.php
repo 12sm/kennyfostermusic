@@ -14,10 +14,10 @@
          
       <div id="social" class="row social-nav">
       <ul class="social-footer">
-        <li><a href="https://www.facebook.com/KennyFosterOfficial"><i class="fa fa-facebook-square"></i></a></li>
-        <li><a href="https://twitter.com/kennyisgo"><i class="fa fa-twitter-square"></i></a></li>
-        <li><a href="http://instagram.com/kennyisgo"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="http://www.youtube.com/user/KennyFosterOFFICIAL"><i class="fa fa-youtube-square"></i></a></li>
+        <li><a href="https://www.facebook.com/KennyFosterOfficial"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/kennyisgo"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="http://instagram.com/kennyisgo"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a href="http://www.youtube.com/user/KennyFosterOFFICIAL"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 
   <?php
      if (has_nav_menu('social_navigation')) :

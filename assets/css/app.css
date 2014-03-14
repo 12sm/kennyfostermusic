@@ -1191,6 +1191,10 @@ text-align: left;
 
 .video-back {padding-bottom: 48%;}
 
+.social-nav {
+float: right;
+margin-right: 15%;
+}
 
 }
 /* Large devices (large desktops, 1200px and up) */
