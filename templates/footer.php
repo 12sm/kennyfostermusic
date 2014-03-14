@@ -1,6 +1,11 @@
 <footer class="content-info container" role="contentinfo">
   <div class="row">
     <div class="col-lg-12">
+    <div class="row">
+      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6">     
+        <div id="social" class="row social-nav">
       <!--<div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>-->
@@ -11,11 +16,7 @@
      endif;
   ?>
     </div>
-    <div class="row">
-      <div class="col-sm-6">
-      </div>
-      <div class="col-sm-6">     
-        <div id="social" class="row social-nav">
+    
           <ul class="social-footer">
               <li><a href="https://www.facebook.com/KennyFosterOfficial"><i class="fa fa-facebook-square fa-2x"></i></a></li>
               <li><a href="https://twitter.com/kennyisgo"><i class="fa fa-twitter-square fa-2x"></i></a></li>
