@@ -27,9 +27,8 @@ var ExampleSite = {
 //Video page
   video: {
     init: function() {
-      console.log("I'm firing fro the video section")
-  var owl = $("#owl-carousel");
-     owl.owlCarousel({
+      console.log("I'm firing from the video section")
+      $("#owl-carousel").owlCarousel({
        itemsCustom : [
        [0, 2],
        [480, 3],
