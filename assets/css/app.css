@@ -465,7 +465,9 @@ margin-right: -15px;
 padding-bottom: 2%;
 padding-top: 16%;
 }
-
+.blog-img-container {
+padding: 3%;
+}
 form.email-signup {
 padding-bottom: 30%;
 }
