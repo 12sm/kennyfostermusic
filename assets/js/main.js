@@ -30,16 +30,16 @@ var ExampleSite = {
     init: function() {
       // JS here
     }
-  }
+  },
 
-  blog:{
+  blog: {
     var $container = $('.blog-posts-internal');
 // initialize
 $container.masonry({
   itemSelector: '.blog-post-individual-internal'
   });
-
 }
+
 };
 
 
