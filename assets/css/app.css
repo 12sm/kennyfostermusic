@@ -570,7 +570,7 @@ padding-bottom: 2%;
 padding-top: 16%;
 }
 .blog-img-container {
-padding: 3%;
+padding: 0;
 }
 form.email-signup {
 padding-bottom: 30%;
@@ -609,9 +609,10 @@ height: 50px!important;
     text-align: center;
 }
 
+body.blog .blog-title {text-align:left;height:auto;}
+
 .blog-img{
     padding: 21% 10%;
-    border: solid #FFFFFF 3px;
     background-size: cover;
 }
 
