@@ -611,6 +611,16 @@ height: 50px!important;
 
 body.blog .blog-title {text-align:left;height:auto;color:#FFF;}
 
+body.blog h3.blog-title {
+line-height: 0.9!important;
+}
+
+.blog-post-individual-internal p {
+font-size: 13px;
+line-height: 1;
+color:#000!important;
+}
+
 .blog-img{
     padding: 21% 10%;
     background-size: cover;
@@ -684,8 +694,7 @@ background: rgba(30, 15, 9, .4);
 }
 
 .blog-post-individual-internal {
-background-color: #8A7B60;
-}
+background: rgba(216,202,176,1);}
 
 /* ==========================================================================
    Tour Page
