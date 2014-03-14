@@ -562,7 +562,7 @@ body > div.wrap.container-fluid > div > main > form {
 margin-top: -105px;
 }
 
-body > div.wrap.container-fluid > div > main > div.row.blog-posts-internal > div {
+.blog-top-margin{
 margin-top: 100px;
 }
 
