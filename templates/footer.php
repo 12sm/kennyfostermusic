@@ -1,11 +1,6 @@
 <footer class="content-info container" role="contentinfo">
   <div class="row">
     <div class="col-lg-12">
-    <div class="row">
-      <div class="col-sm-6">
-      </div>
-      <div class="col-sm-6">     
-        <div id="social" class="row social-nav">
       <!--<div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>-->
@@ -16,16 +11,15 @@
      endif;
   ?>
     </div>
-    
-          <ul class="social-footer">
-              <li><a href="https://www.facebook.com/KennyFosterOfficial"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-              <li><a href="https://twitter.com/kennyisgo"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              <li><a href="http://instagram.com/kennyisgo"><i class="fa fa-instagram fa-2x"></i></a></li>
-              <li><a href="http://www.youtube.com/user/KennyFosterOFFICIAL"><i class="fa fa-youtube-square fa-2x"></i></a></li>
-          </ul>
-      </div>
-    </div>
-  </div>
+       
+      <div id="social" class="row social-nav">
+      <ul class="social-footer">
+        <li><a href="https://www.facebook.com/KennyFosterOfficial"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/kennyisgo"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="http://instagram.com/kennyisgo"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a href="http://www.youtube.com/user/KennyFosterOFFICIAL"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+        </ul>
+        </div>
   <?php
      if (has_nav_menu('social_navigation')) :
        wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
