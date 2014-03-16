@@ -374,13 +374,15 @@ width:100%;
 height:auto;
 }
 
-.story{
-  height: 0px;
-  padding-bottom: 25%;
-  background-image: url(../img/Continue-the-Story.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: -20px;
+.story {
+height: 70px;
+background-image: url(../img/Continue-the-Story.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-top: 30px;
+display: block;
+text-indent: -99999px;
+overflow: hidden;
 }
 
 .about-page h3{
@@ -1019,7 +1021,7 @@ padding:0px 10px;
 @media (min-width:768px) {
 
 .col,
-.post-nav {margin:0 10%;}
+.post-nav {margin:0 8%;}
 
 .flexslider {height:700px;}
 
@@ -1038,9 +1040,6 @@ padding:0px 10px;
 .who-is-kf{
   margin-top: -10px;
 }
-.story{
-   margin-top: -45px;
- }
 
  .vid-desc{
   text-align: left;
