@@ -180,7 +180,7 @@ var Roots = {
     }
   },
 
-  blog: {
+  category_blog: {
     init: function() {
     var $container = $('.blog-posts-internal');
     // initialize
