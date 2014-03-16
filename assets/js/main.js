@@ -182,7 +182,7 @@ var Roots = {
 
   category_blog: {
     init: function() {
-    var $container = $('.blog-posts-internal');
+    var $container = $('.blog-top-margin');
     // initialize
     $container.masonry({
       itemSelector: '.blog-post-individual-internal'
