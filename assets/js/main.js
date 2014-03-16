@@ -185,7 +185,6 @@ var Roots = {
     var $container = $('.blog-post-container');
     // initialize
     $container.masonry({
-      columnWidth: 400,
       itemSelector: '.blog-post-individual-internal',
       "isFitWidth": true
       });
