@@ -1,6 +1,6 @@
-<?php
+<div clas="row home-slider"><?php echo do_shortcode( '[layerslider id="2"]'); ?></div>
 
-echo do_shortcode( '[layerslider id="2"]');
+<?php
 echo do_shortcode('[wpv-view name="About Home"]');
 echo do_shortcode('[wpv-view name="Video Home"]');
 echo do_shortcode('[wpv-view name="Tour Home"]');
