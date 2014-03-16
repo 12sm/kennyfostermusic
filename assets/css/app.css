@@ -664,7 +664,7 @@ text-align: center!important;
 }
 
 .blog-page {
-background-image: url(../img/ozarks-lg.jpg);
+background-image: url(../img/store-big.jpg);
 background-size: cover;
 padding: 5% 0px 0px 0px;
 overflow: hidden;
@@ -673,7 +673,7 @@ overflow: hidden;
 .row.blog-posts-internal {
 background: rgba(30, 15, 9, .4);
 top: 10px;
-background-image: url(../img/ozarks-lg.jpg);
+background-image: url(../img/store-big.jpg);
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
