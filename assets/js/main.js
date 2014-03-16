@@ -185,7 +185,9 @@ var Roots = {
     var $container = $('.blog-post-container');
     // initialize
     $container.masonry({
-      itemSelector: '.blog-post-individual-internal'
+      columnWidth: 400,
+      itemSelector: '.blog-post-individual-internal',
+      "isFitWidth": true
       });
     }
   },
