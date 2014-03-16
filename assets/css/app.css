@@ -127,11 +127,6 @@ color: #F30;
 background: none!important;
 }
 
-.home-slider {
-height: 0px;
-padding-bottom: 58%;
-}
-
 /* ==========================================================================
   OWL Carousel
    ========================================================================== */
@@ -280,15 +275,12 @@ opacity: 0.5;
 /* ==========================================================================
    Home
    ========================================================================== */
-   .home-slider{
-    background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/kenny_final_flat_sharp-xs.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 80%;
-    height: 0px!important;
-	margin-top: -100px; /* this may need to change when we put the actual video in */
-	padding-bottom:76%;
-   }
+.home-slider{
+height: 0px;
+padding-bottom: 58%;
+background: #d5e9f7 url(../img/ajax-loader.gif) 50% 50% no-repeat;
+}
+
 
    .slider-img {
     height: 0px;
