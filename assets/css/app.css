@@ -1182,8 +1182,10 @@ font-size: 22px;
 }
 
 .blog-post-individual-internal {
-margin: 3%;
+margin: 15px;
+width: 400px;
 }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
