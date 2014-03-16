@@ -697,7 +697,10 @@ background: rgba(30, 15, 9, .4);
 
 .blog-post-individual-internal {
 background: rgba(216,202,176,1);
-border: 4px double #744B4B;}
+border: 4px double #744B4B;
+}
+
+.blog-post-container {marign:0px auto;}
 
 /* ==========================================================================
    Tour Page
