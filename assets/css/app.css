@@ -824,6 +824,7 @@ padding: 2%;
 
 body.archive .read-more a h4 {
 text-align: right;
+font-size:13px;
 }
 
 body.home .read-more a h4 {
