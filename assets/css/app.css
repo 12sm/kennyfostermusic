@@ -1350,7 +1350,11 @@ top: -60px!important;
 }
 
 .video-description h1 {
-font-size: 50px;
+font-size: 28px;
+}
+
+body.home .videos {
+  padding-bottom: 64%;
 }
 
 .blog-post-individual-internal {
@@ -1577,6 +1581,6 @@ text-indent: -999999px;
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
 @media screen and (max-width: 860px) {
-  .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
-  .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+  .flex-direction-nav .flex-prev { opacity: 1; left: 10%;}
+  .flex-direction-nav .flex-next { opacity: 1; right: 10%;}
 }
