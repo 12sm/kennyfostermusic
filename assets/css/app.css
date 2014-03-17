@@ -712,7 +712,9 @@ border: 4px solid #fff;
 
 .blog-post-container {margin:0px auto;}
 
-.read-more a:hover {text-decoration:none;}
+.divider {
+background: transparent url(../img/divider.png) top center scroll no-repeat;
+}
 
 .blog-post-container .post-footer {
 background: #554643;
@@ -731,6 +733,8 @@ margin: 0px;
 font-size: 13px;
 text-transform: uppercase;	 
 }
+
+.read-more a:hover {text-decoration:none;}
 
 
 /* ==========================================================================
