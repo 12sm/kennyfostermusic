@@ -445,9 +445,6 @@ background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
 }
-body.home .videos {
-height: 375px!important;
-}
 .video-content {
 margin-top: -50%;
 margin-bottom: 35%;
@@ -1146,9 +1143,6 @@ border: none!important;
 top: -360px!important;
 }
 
-body.home .videos {
-height: 640px!important;
-}
 
 .video-description h1 {
 font-size: 20px;
