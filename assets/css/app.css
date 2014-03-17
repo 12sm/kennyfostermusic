@@ -540,6 +540,13 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+<<<<<<< HEAD
+=======
+body.tour .tour-dates {
+margin-top: 10%;
+}
+
+>>>>>>> FETCH_HEAD
 body.home .tour {padding: 7% 0px;}
 
 .tour-top {
@@ -1122,6 +1129,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
+
+@media (max-width: 480px) {
+.owl-next, .owl-prev {
+margin-top: -10%!important;
+}
+
+}
 
 @media (max-width:767px) {
 
