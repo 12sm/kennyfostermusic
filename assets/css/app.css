@@ -131,10 +131,6 @@ width: 100%;
 top: 0;
 }
 
-.navbar>.container .navbar-brand {
-display: none;
-}
-
 .navbar-default .navbar-nav>.active>a {
 color: #F30;
 background: none!important;
@@ -1200,6 +1196,10 @@ width: 170px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.navbar>.container .navbar-brand {
+display: none;
+}
 
 .banner {
 background-color: rgba(0, 0, 0, .3);
