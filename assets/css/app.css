@@ -12,10 +12,7 @@
   font-family: "Haymaker";
   src: url(../fonts/Haymaker.ttf);
 }
-@font-face{
-  font-family: "viva-std";
-  src: url(../fonts/Hooverville.ttf);
-}
+
 /* ==========================================================================
    Base 
    ========================================================================== */
