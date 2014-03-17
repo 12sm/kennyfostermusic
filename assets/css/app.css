@@ -524,13 +524,15 @@ text-decoration:none;
    Tour - home
    ========================================================================== */
 
-body.home .tour {
+body.home .tour, 
+body.tour {
 background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/desert-lg1.jpg);
 border: none;
 background-size: cover;
-padding: 7% 0px;
 background-attachment: fixed;
 }
+
+body.home .tour {padding: 7% 0px;}
 
 .tour-top {
 margin-top: 18%!important;
