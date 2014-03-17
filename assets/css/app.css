@@ -771,6 +771,11 @@ body.single .blog-title a {
 font-size: 46px;
 }
 
+body.archive .blog-title a:hover {
+color: #AF9797!important;
+text-decoration: none;
+}
+
 body.single p {
 font-size:14px;	
 color:#352C21
