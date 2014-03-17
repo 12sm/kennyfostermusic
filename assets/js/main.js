@@ -37,7 +37,21 @@ var Roots = {
 		  $('tickets').each(function(){
 			  $('.bit-buy-tix > Tickets').text("TIX");
 			});
-	  }; 
+	  };
+	  
+	  $("#owl-carousel").owlCarousel({
+       itemsCustom : [
+       [0, 2],
+       [480, 3],
+       [768, 4],
+       [1200, 4],
+       [1600, 4]
+       ],
+       navigation : true,
+       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       pagination: false,
+       scrollPerPage : true
+      }); 
       
     }
   },
@@ -157,19 +171,7 @@ var Roots = {
 //Video page
   video: {
     init: function() {
-      $("#owl-carousel").owlCarousel({
-       itemsCustom : [
-       [0, 2],
-       [480, 3],
-       [768, 4],
-       [1200, 4],
-       [1600, 4]
-       ],
-       navigation : true,
-       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
-       pagination: false,
-       scrollPerPage : true
-      });
+      
   }
 },
 

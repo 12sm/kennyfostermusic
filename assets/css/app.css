@@ -452,6 +452,7 @@ position: fixed;
 -o-filter: blur(0px);
 -ms-filter: blur(0px);
 filter: blur(0px);
+z-index:-1;
 }
 
 .video-content {
