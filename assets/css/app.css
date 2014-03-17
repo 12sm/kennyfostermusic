@@ -73,11 +73,18 @@ p.credits {
 font-size:9px;
 opacity:.2;
 font-family:arial, sans-serif;
+margin-top: 0;
+}
+
+.credits a:hover {
+color: rgb(204, 154, 154)!important;
+text-decoration: none;
 }
 
 footer {
 	/*background-color:#1e1008;*/
-	padding: 10px 0px;
+	padding: 30px 0px;
+	height:auto!important;
 }
 
 /* ==========================================================================
@@ -277,8 +284,9 @@ opacity: 0.5;
    ========================================================================== */
 .home-slider{
 height: 0px;
-padding-bottom: 58%;
+padding-bottom: 49%;
 background: #d5e9f7 url(../img/ajax-loader.gif) 50% 50% no-repeat;
+padding-top: 50px;
 }
 
 
@@ -968,9 +976,10 @@ clear: both;
 width: 100%;
 }
 
-#social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social ul {margin:0px; padding:0px; list-style: none;opacity: .2;}
+#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
+#social a:hover {color: rgb(204, 154, 154)!important;}
 
 /*Twitter Button*/
 
@@ -1046,6 +1055,11 @@ display: inline;
 
 #menu-primary-navigation-1 li {
 padding:0px 20px!important;
+}
+
+#menu-primary-navigation-1 a:hover {
+color: rgb(204, 154, 154)!important;
+text-decoration: none;
 }
 
 body > div.wrap.container-fluid > div > footer > div > div > div.row.footer-nav {
@@ -1298,7 +1312,7 @@ text-align: left;
 
 .social-nav {
 float: right;
-margin-right: 15%;
+margin-right: 0;
 }
 #social > ul>li {
 margin: 10px 15px;
