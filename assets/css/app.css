@@ -521,10 +521,10 @@ text-decoration:none;
 
  
 /* ==========================================================================
-   Tour
+   Tour - home
    ========================================================================== */
 
-.tour {
+body.home .tour {
 background-image: url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/02/desert-lg1.jpg);
 border: none;
 background-size: cover;
@@ -743,8 +743,8 @@ text-transform: uppercase;
 /* ==========================================================================
    Tour Page
    ========================================================================== */
-   .tour-dates{
-    background: url('../img/KFTour.png');
+.tour-dates{
+background: url('../img/KFTour.png');
 background-repeat: no-repeat;
 background-position: top center;
 background-size: 40%;
@@ -913,7 +913,13 @@ height:auto;
    Footer
    ========================================================================== */
 
-.content-info {background:#1F1109; }
+.content-info {
+background: #1F1109;
+height: 150px;
+position: relative;
+clear: both;
+width: 100%;
+}
 
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
