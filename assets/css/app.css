@@ -852,7 +852,7 @@ padding-top: 1%;
    }
 
    .tour-header{
-    margin-top: 25px!important;
+    margin-top: 19%;
     border-top: 1px solid #FFFFFF!important;
     border-bottom: 1px solid #FFFFFF!important;
     margin-bottom: 3px;
@@ -1224,6 +1224,7 @@ padding-top: 0px;
 background-position: left top;
 background-size: 35%;
 padding: 0px!important;
+margin-top: -15%;
 }
 
 #bit-widget-0{
