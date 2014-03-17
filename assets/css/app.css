@@ -816,6 +816,11 @@ background: rgba(255, 250, 240, 0.7);
 
 body.single-post .blog-top-margin {margin-top:50px;}
 
+body.single-post .blog-title a:hover {
+text-decoration: none;
+cursor: default;
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
