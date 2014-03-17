@@ -1536,12 +1536,12 @@ and (max-device-width : 1024px)
 and (orientation : landscape) { 
 .about-view {
 background:  url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) center no-repeat;
-background-size: auto 100%;
+background-size: cover;
 padding: 10% 0px;
--webkit-background-size: auto 100%;
--moz-background-size: auto 100%;
--o-background-size: auto 100%;
-background-size: auto 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 }
 
@@ -1549,7 +1549,7 @@ background-size: auto 100%;
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
-and (orientation : cover) {
+and (orientation : portrait) {
 .about-view{
 background:  url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) center no-repeat;
 background-size: cover;
