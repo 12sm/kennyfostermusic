@@ -752,6 +752,19 @@ text-transform: uppercase;
 .read-more a:hover {text-decoration:none;}
 
 
+body.single .blog-title a {
+font-size: 46px;
+}
+
+body.single p {
+font-size:14px;	
+color:#352C21
+}
+
+body.single .blog-container {
+background: rgba(53, 32, 18, 0.9);
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
