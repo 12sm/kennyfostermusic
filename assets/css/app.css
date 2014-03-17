@@ -791,6 +791,14 @@ body.archive .post {
 padding: 2%;
 }
 
+body.archive .read-more a h4 {
+text-align: right;
+}
+
+body.archive .read-more a h4:hover {
+color: rgb(172, 165, 162);
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
