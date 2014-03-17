@@ -799,6 +799,19 @@ body.archive .read-more a h4:hover {
 color: rgb(172, 165, 162);
 }
 
+body.single-post .blog-title a {
+font-size: 66px;
+}
+
+body.single-post p {
+font-size: 14px;
+color: #352C21!important;
+}
+
+.blog-article {
+background: rgba(255, 250, 240, 0.7);
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
