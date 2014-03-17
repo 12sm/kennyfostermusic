@@ -32,7 +32,7 @@
        wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
      endif;
   ?>
-<!-- end col 12 -->
+</div><!-- end col 12 -->
       
     </div>
   </div>
