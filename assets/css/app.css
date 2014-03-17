@@ -1454,6 +1454,13 @@ padding: 0px 10%;
     margin-top: 25px!important;
 }
 
+.blog-page {
+background-image: url(../img/ozarks-lg.jpg);
+background-size: cover;
+padding: 5% 0px 0px 0px;
+overflow: hidden;
+}
+
 
 }
 
