@@ -1249,6 +1249,9 @@ margin-right: 15%;
 #social > ul>li {
 margin: 10px 15px;
 }
+.owl-next, .owl-prev{
+  margin-top: initial!important;
+}
 }
 
 
