@@ -689,6 +689,8 @@ text-transform: uppercase;
 text-align: center!important;
 }
 
+.blog-title a:hover {color:#A78A85;}
+
 .blog-page {
 background-image: url(../img/ozarks-lg.jpg);
 background-size: cover;
