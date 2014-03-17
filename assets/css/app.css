@@ -1299,7 +1299,7 @@ text-align: left;
 
 .social-nav {
 float: right;
-margin-right: 15%;
+margin-right: 0;
 }
 #social > ul>li {
 margin: 10px 15px;
