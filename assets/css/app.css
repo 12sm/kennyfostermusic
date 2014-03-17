@@ -78,7 +78,8 @@ margin-top: 0;
 
 footer {
 	/*background-color:#1e1008;*/
-	padding: 10px 0px;
+	padding: 30px 0px;
+	height:auto!important;
 }
 
 /* ==========================================================================
