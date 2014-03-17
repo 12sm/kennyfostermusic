@@ -360,12 +360,6 @@ padding-top: 50px;
    About
    ========================================================================== */
 
-.about-view {
-background: transparent url../img/Bar-768.jpg) top center no-repeat;
-background-size: cover;
-background-attachment: fixed;
-padding: 10% 0px;
-}
 
 .who-is-kf{
   height: 0px;
@@ -1156,11 +1150,24 @@ body.home .videos {height:700px!important;}
 font-size: 20px;
 padding:0px 10px;
 }
+
+
+.about-view {
+background: transparent url(../img/Bar-768.jpg) top center no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 10% 0px;
+}
 	
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.navbar-collapse iframe {
+display: block!important;
+width: 50px!important;
+}
 
 .owl-next, .owl-prev{
   margin-top: -3%!important;
@@ -1344,12 +1351,19 @@ width: 23%;
 margin: 1%;
 }
 
+.about-view {
+background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 10% 0px;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 
-.navbar-collapse iframe {display:block!important;}
+.navbar-collapse iframe {display:block!important; width:300px!important;}
 	
 .vid-desc{
 text-align: left;
@@ -1371,12 +1385,7 @@ margin: 4% 0px;
 padding: 0px 10%;
 }
 
-.about-view {
-background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
-background-size: cover;
-background-attachment: fixed;
-padding: 10% 0px;
-}
+
 
 }
 
