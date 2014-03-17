@@ -1414,6 +1414,7 @@ padding: 10% 0px;
 body.home .blog-page {
 background-image: url(../img/ozarks-lg.jpg);
 background-size:contain;
+background-repeat:no-repeat;
 }
 
 }
