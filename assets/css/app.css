@@ -441,19 +441,13 @@ margin-top: -11%;
   opacity: 0.7;
 }
 
-body.post-type-archive-videos .video-back,
-body.single-videos .video-back {
-position:fixed;
-height: 100%;
-padding-bottom: 0px;
-margin-top: 0px;
-position: fixed;
--webkit-filter: blur(0px);
--moz-filter: blur(0px);
--o-filter: blur(0px);
--ms-filter: blur(0px);
-filter: blur(0px);
-z-index:-1;
+body.post-type-archive-videos,
+body.single-videos {
+background: rgba(30, 15, 9, .4);
+background-image: url(../img/store-big.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
 }
 
 .video-content {
