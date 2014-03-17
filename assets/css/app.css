@@ -125,6 +125,8 @@ color: #F30;
 background: none!important;
 }
 
+.navbar-collapse iframe {display:none;}
+
 /* ==========================================================================
   OWL Carousel
    ========================================================================== */
@@ -1264,6 +1266,8 @@ width: 400px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+
+.navbar-collapse iframe {display:block;}
 
 .video-thumbnail-internal img{
   height: 150px;
