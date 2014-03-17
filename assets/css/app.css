@@ -944,7 +944,8 @@ background-repeat: no-repeat;
 body.photos .main {padding-top: 6%;}
 
 body.photos h1 {
-font-size: 50px;	
+font-size: 50px;
+text-align:center;	
 }
   
 body.photos .insta-grid {padding:0px; margin:0px;}
