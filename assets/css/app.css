@@ -1484,7 +1484,6 @@ and (orientation : landscape) {
 background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
 background-size: contain;
 background-attachment: fixed;
-padding: 10% 0px;
 }
 }
 
@@ -1497,7 +1496,6 @@ and (orientation : portrait) {
 background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
 background-size: contain;
 background-attachment: fixed;
-padding: 10% 0px;
 }
 }
 
