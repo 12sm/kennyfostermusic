@@ -1351,7 +1351,7 @@ margin: 1%;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 
-.navbar-collapse iframe {display:block!important;}
+.navbar-collapse iframe {display:block!important; width:300px!important;}
 	
 .vid-desc{
 text-align: left;
