@@ -107,10 +107,6 @@ background-color: rgba(0, 0, 0, .3);
   margin-bottom: 0px!important;
 }
 
-.container-fluid{
-  padding-top: 10px!important;
-}
-
 .navbar-default {
 border:none!important;
 position: fixed;
@@ -581,7 +577,7 @@ margin: 0 10px;
 .btn-default {
 color: #FFF;
 border:none;
-font-family: "chapparel-pro";
+font-family: "chapparal-pro";
 font-size: 18px;
 background: rgba(0, 0, 0, .3);
 margin: 0 auto!important;
@@ -621,10 +617,10 @@ line-height: 1;
 color:#000!important;
 }
 
-.blog-img {
+body.home .blog-img {
 padding: 21% 10%;
 background-size: cover;
-border: 3px solid #fff;
+border: 4px solid #fff;
 border-bottom: none;
 }
 
@@ -659,6 +655,7 @@ hr{
 
 .blog-title a{
 color: #fff;
+font-family: 'chaparral-pro';
 font-size: 26px;
 text-transform: uppercase;
 text-align: center!important;
@@ -699,7 +696,7 @@ border-bottom: 3px solid #ededed;
 
 .blog-post-individual-internal {
 background: rgba(216,202,176,1);
-border: 4px double #744B4B;
+border: 4px solid #fff;
 }
 
 .blog-post-container {margin:0px auto;}
