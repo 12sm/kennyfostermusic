@@ -498,7 +498,8 @@ padding-top:20px;
 }
 
 .video-thumbnail-internal {
-height: auto;
+height: 250px;
+width:250px;
 color: black;
 font-size: 18px;
 text-align: center;
