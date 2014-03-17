@@ -105,10 +105,10 @@ font-size: 12px;
 .nav li a:hover {
 color:red;
 }
-
+ 
 .banner {
-background-color: rgba(0, 0, 0, .3);
- }
+background-color: rgba(0, 0, 0, .95);
+}
 
 #menu-primary-navigation{
   float: right;
@@ -128,10 +128,6 @@ border:none!important;
 position: fixed;
 width: 100%;
 top: 0;
-}
-
-.navbar>.container .navbar-brand {
-display: none;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -721,7 +717,7 @@ background: rgba(53, 32, 18, 0.9);
 
 .blog-posts {
 background: rgba(30, 15, 9, .4);
-border-bottom: 3px solid #ededed;
+padding: 1% 0;
 }
 
 .blog-post-individual-internal {
@@ -1183,6 +1179,14 @@ form.email-signup {padding-bottom: 10%;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.navbar>.container .navbar-brand {
+display: none;
+}
+
+.banner {
+background-color: rgba(0, 0, 0, .3);
+}
 
 .navbar-collapse iframe {
 display: block!important;
