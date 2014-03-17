@@ -1308,9 +1308,6 @@ margin: 10px 15px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
-  .video-description{
-    height: 400px;
-  }
 .tour-dates{
   background: url('../img/KFTour.png') 100% no-repeat;
   background-repeat: no-repeat;
