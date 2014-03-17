@@ -717,7 +717,7 @@ background: rgba(53, 32, 18, 0.9);
 
 .blog-posts {
 background: rgba(30, 15, 9, .4);
-border-bottom: 3px solid #ededed;
+padding: 1% 0;
 }
 
 .blog-post-individual-internal {
