@@ -748,14 +748,6 @@ margin: 0px;
 font-size:13px;
 }
 
-body.home .blog-post-container .post-footer {
-background: #554643;
-padding: 9px 0px 2px 0px;
-display: block;
-margin: 0px;
-font-size:13px;
-}
-
 .blog-post-container .post-footer .date,
 body.home .date{
 color:#fff;
