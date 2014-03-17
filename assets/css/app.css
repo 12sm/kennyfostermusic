@@ -540,13 +540,10 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-<<<<<<< HEAD
-=======
 body.tour .tour-dates {
 margin-top: 13%;
 }
 
->>>>>>> FETCH_HEAD
 body.home .tour {padding: 7% 0px;}
 
 .tour-top {
@@ -1406,6 +1403,9 @@ padding: 10% 0px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+  body.tour .tour-dates {
+margin-top: 2%;
+}
 
 .navbar-collapse iframe {display:block!important; width:300px!important;}
 	
