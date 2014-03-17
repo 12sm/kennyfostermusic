@@ -1163,8 +1163,13 @@ padding: 0;
 body.home .about-view > div {background: rgba(0,0,0,.4);padding: 0 10%;}
 body.home .story {margin-bottom: 30px;}
 body.home .who-is-kf {margin-top: 0px;}
+body.home .tour {
+	background-image: url(../img/desert-800.jpg);
+	border: none;
+	background-size: cover;
+	background-attachment: fixed;}
 
-body.about .col-xs-10 {background: rgba(0,0,0,.6);}
+body.about .col-xs-10 {background:rgba(0,0,0,.6);} 
 	
 }
 
