@@ -18,14 +18,14 @@
   ?>
  
   <div class="wrap container-fluid" role="document">
-    <div class="content">
-      <main class="main col-sm-12" role="main">     
+    <div class="content row">
+      <main class="main <?php echo roots_main_class(); ?>" role="main">     
         <?php include roots_template_path(); ?>
       </main>
       </div>
-
-<?php get_template_part('templates/footer'); ?>
     </div>
+    
+    <?php get_template_part('templates/footer'); ?>
 
 </body>
 </html>
