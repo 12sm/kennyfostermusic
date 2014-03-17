@@ -49,59 +49,62 @@
 [wpv-posts-found]
 <!-- wpv-loop-start -->
 
+   [wpv-layout-start]
+[wpv-posts-found]
+<div class="flexslider row videos">
+  <ul class="slides">
    <wpv-loop>
- <div class="row video" style="background-image:url(
-                      [wpv-if override="wpcf-override-thumb" evaluate="$override!=1"]
-                      [wpv-post-featured-image raw="true"]);">
-                      [/wpv-if]
-                  [wpv-if image="wpcf-featured-image" override="wpcf-override-thumb" evaluate="!empty($image) AND $override!=0"]
-                      [types field="featured-image" raw="true" id=""][/types]);">
-                    [/wpv-if]
-   <div class="col-lg-1">
+ <li class="video">
+   <div class="video-back" style="background-image:url([wpv-if override="wpcf-override-thumb" evaluate="$override!=1"][wpv-post-featured-image raw="true"][/wpv-if][wpv-if image="wpcf-featured-image" override="wpcf-override-thumb" evaluate="!empty($image) AND $override!=0"][types field="featured-image" raw="true" id=""][/types][/wpv-if]);"></div>
+   <div class="video-content">
+   <div class="col-md-1">
    </div>
-   <div class="col-lg-10">
+   <div class="col-md-10 col-sm-12">
      <div class="row">
-       <div class="col-lg-8">
+       <div class="col-md-7 col-sm-7">
      <div class="row vid-back">
-       <div class="col-lg-12 vid-wrapper">
-      [types field="video-url" height="130%"][/types]]
+       <div class="col-md-12 vid-wrapper">
+      [types field="video-url" height="130%"][/types]
        </div>
      </div>
        </div>
-   <div class="col-lg-4 video-description">
+       <div class="col-md-1 col-sm-1"></div>
+   <div class="col-md-4 col-sm-4 video-description">
      <div class="row">
-       <div clss="col-lg-12">
+       <div clss="col-md-12">
          <h1 class="centered">[wpv-post-title]</h1>
        </div>
      </div>
-     <div class="row">
-       <div class="col-lg-12 vid-line">
+     <div class="row hidden-xs">
+       <div class="col-md-12 vid-line">
        </div>
      </div>
          
      <br>
-     <div class="row">
-       <div class="col-lg-12">
+     <div class="row hidden-xs">
+       <div class="col-md-12 vid-desc">
          <p>[types field="short-description"][/types]</p>
        </div>
      </div>
-     <div class="row">
-       <div class="col-lg-12">
-         <a href="[wpv-post-url]"><h3>Read More</h3></a>
+     <div class="row hidden-xs">
+       <div class="col-md-12">
+         <a href="[wpv-post-url]"><h3 class="vid-read">Read More</h3></a>
    </div>
        </div>
         </div>
      </div>
-       <div class="row vid-nav">
-         <div class="col-sm-1 vid-prev">
-         </div>
-         <div class="col-sm-1 col-sm-offset-10 vid-next">
-         </div>
-       </div>
-    
-           </div>
-           </div>
+   </div>
+    <div class="col-md-1">
+   </div>  
+   </div>
+ </li>
    </wpv-loop>
+  </ul>
+</div>
+[/wpv-posts-found]
+[wpv-no-posts-found][wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string][/wpv-no-posts-found]
+[wpv-layout-end]
+
 <!-- wpv-loop-end -->
 [/wpv-posts-found]
 [wpv-no-posts-found][wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string][/wpv-no-posts-found]
