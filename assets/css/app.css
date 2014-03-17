@@ -1192,6 +1192,7 @@ width: 180px;
 
 body.home .blog-page {
 background-image: url(../img/ozarks-800.jpg);
+background-size:contain;
 }
 	
 }
@@ -1410,14 +1411,6 @@ background-size: cover;
 background-attachment: fixed;
 padding: 10% 0px;
 }
-
-
-
-body.home .blog-page {
-background-image: url(../img/ozarks-800.jpg);
-}
-
-
 }
 
 /* Medium devices (desktops, 992px and up) */
