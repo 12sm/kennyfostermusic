@@ -681,7 +681,7 @@ hr{
 }
 
 .blog-title a{
-color: #fff;
+color: #554643!important;
 font-family: 'chaparral-pro';
 font-size: 26px;
 text-transform: uppercase;
@@ -722,7 +722,7 @@ background: rgba(53, 32, 18, 0.9);
 }
 
 .blog-posts {
-background: rgba(30, 15, 9, .4);
+background: rgba(30, 15, 9, 1);
 padding: 1% 4%;
 }
 
@@ -1363,7 +1363,7 @@ background-repeat: no-repeat;
 margin-top: 25px;
 }
 .blog-fix-height {
-height: 110px!important;
+height: auto!important;
 }
 
 .flex-direction-nav {
