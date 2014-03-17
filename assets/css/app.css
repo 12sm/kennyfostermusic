@@ -1159,6 +1159,11 @@ padding:0px 10px;
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
+.navbar-collapse iframe {
+display: block!important;
+width: 50px!important;
+}
+
 .owl-next, .owl-prev{
   margin-top: -3%!important;
 }
