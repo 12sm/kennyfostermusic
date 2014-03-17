@@ -976,9 +976,9 @@ width: 100%;
 }
 
 #social ul {margin:0px; padding:0px; list-style: none;opacity: .2;}
-#social ul a:hover {opacity: .5!important;}
 #social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
+#social a:hover {color: rgb(204, 154, 154)!important;}
 
 /*Twitter Button*/
 
