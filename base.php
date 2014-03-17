@@ -24,9 +24,7 @@
       </main>
       </div>
     </div>
-</main>
   <?php get_template_part('templates/footer'); ?>
-</div>
-      </div>
+
 </body>
 </html>
