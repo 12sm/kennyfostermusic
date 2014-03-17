@@ -130,6 +130,10 @@ width: 100%;
 top: 0;
 }
 
+.navbar>.container .navbar-brand {
+display: none;
+}
+
 .navbar-default .navbar-nav>.active>a {
 color: #F30;
 background: none!important;
@@ -493,9 +497,9 @@ overflow-y: auto;
  .video-description h1 {font-size:35px; font-family: "viva-std";}
  
  
-.video-page-featured-video {
-margin-top: 50px!important;
-}
+ .video-page-featured-video {
+	margin-top:4%; 
+ }
 
 
 .video-thumbnail-internal {
@@ -536,10 +540,13 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+<<<<<<< HEAD
+=======
 body.tour .tour-dates {
 margin-top: 13%;
 }
 
+>>>>>>> FETCH_HEAD
 body.home .tour {padding: 7% 0px;}
 
 .tour-top {
@@ -722,7 +729,7 @@ background: rgba(53, 32, 18, 0.9);
 
 .blog-posts {
 background: rgba(30, 15, 9, .4);
-padding: 1% 0;
+padding: 1% 4%;
 }
 
 .blog-post-individual-internal {
@@ -736,7 +743,7 @@ border: 1px solid #332D28;
 box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
 }
 
-.blog-post-container {margin:0px auto; width: inherit!important;}
+.blog-post-container {margin:0px auto;}
 
 .divider {
 background: transparent url(../img/divider.png) 80px 0px scroll no-repeat;
@@ -1123,6 +1130,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (max-width: 480px) {
+.owl-next, .owl-prev {
+margin-top: -10%!important;
+}
+
+}
+
 @media (max-width:767px) {
 
 .owl-next, .owl-prev{
@@ -1185,13 +1199,9 @@ form.email-signup {padding-bottom: 10%;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
-.navbar>.container .navbar-brand {
-display: none;
-}
-
 .banner {
 background-color: rgba(0, 0, 0, .3);
-}
+ }
 
 .navbar-collapse iframe {
 display: block!important;
