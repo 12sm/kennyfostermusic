@@ -970,8 +970,8 @@ clear: both;
 width: 100%;
 }
 
-#social ul {margin:0px; padding:0px; list-style: none;}
-#social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
+#social ul {margin:0px; padding:0px; list-style: none;opacity: .2;}
+#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
 /*Twitter Button*/
