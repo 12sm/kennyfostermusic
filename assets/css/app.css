@@ -826,6 +826,7 @@ text-align: right;
 
 body.home .read-more a h4 {
 text-align: right;
+font-size:13px;
 }
 
 body.archive .read-more a h4:hover {
