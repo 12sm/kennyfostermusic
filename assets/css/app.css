@@ -762,7 +762,7 @@ color:#352C21
 }
 
 body.single .blog-container {
-background: rgba(53, 32, 18, 0.9);
+background: rgba(53, 32, 18, 0.9)!important;
 }
 
 /* ==========================================================================
