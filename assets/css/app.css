@@ -511,6 +511,7 @@ width:100%;
 color: black;
 font-size: 18px;
 text-align: center;
+border: 1px #fff solid;
  }
 
 span.thumb-title {
