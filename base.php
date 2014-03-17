@@ -23,9 +23,8 @@
         <?php include roots_template_path(); ?>
       </main>
       </div>
-
-    <?php get_template_part('templates/footer'); ?>
     </div>
+    <?php get_template_part('templates/footer'); ?>
 
 </body>
 </html>
