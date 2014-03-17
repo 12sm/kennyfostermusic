@@ -1058,6 +1058,7 @@ clear: both;
 width: 100%;
 padding: 30px 0px;
 height:auto!important;
+margin:0px -15px;
 }
 
 #social ul {margin:0px; padding:0px; list-style: none;opacity: .2;}
