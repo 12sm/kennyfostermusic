@@ -941,6 +941,8 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 }
 
+body.photos .main {padding-top: 6%;}
+
 body.photos h1 {
 font-size: 50px;	
 }
