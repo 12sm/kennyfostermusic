@@ -1414,11 +1414,17 @@ background-size: cover;
 background-attachment: fixed;
 padding: 10% 0px;
 }
+
+body.home .blog-page {
+background-image: url(../img/ozarks-800.jpg);
+background-size:contain;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-  body.tour .tour-dates {
+body.tour .tour-dates {
 margin-top: 2%;
 }
 
