@@ -639,8 +639,7 @@ background-size: cover;
 }
 
 body.home .blog-img {
-border: 4px solid #fff;
-border-bottom: none;	
+	
 }
 
 body.blog .blog-img {
