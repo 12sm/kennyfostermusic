@@ -12,10 +12,7 @@
   font-family: "Haymaker";
   src: url(../fonts/Haymaker.ttf);
 }
-@font-face{
-  font-family: "viva-std";
-  src: url(../fonts/Hooverville.ttf);
-}
+
 /* ==========================================================================
    Base 
    ========================================================================== */
@@ -129,10 +126,6 @@ border:none!important;
 position: fixed;
 width: 100%;
 top: 0;
-}
-
-.navbar>.container .navbar-brand {
-display: none;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -1070,7 +1063,7 @@ margin: 0px;
 }
 
 #social ul {margin:0px; padding:0px; list-style: none;opacity: .2;}
-#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
+#social li {margin:0px; padding: 0px; list-style:none; display: inline-block;}
 #social li a {padding: 10px;}
 #social a:hover {color: rgb(204, 154, 154)!important;}
 
@@ -1194,13 +1187,21 @@ form.email-signup {padding-bottom: 10%;}
 
 #social ul {
 margin: 0px auto;
-width: 170px;
+width: 180px;
+}
+
+body.home .blog-page {
+background-image: url(../img/ozarks-800.jpg);
 }
 	
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
+
+.navbar>.container .navbar-brand {
+display: none;
+}
 
 .banner {
 background-color: rgba(0, 0, 0, .3);
@@ -1409,6 +1410,13 @@ background-size: cover;
 background-attachment: fixed;
 padding: 10% 0px;
 }
+
+
+
+body.home .blog-page {
+background-image: url(../img/ozarks-800.jpg);
+}
+
 
 }
 
