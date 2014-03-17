@@ -1462,6 +1462,11 @@ padding: 5% 0px 0px 0px;
 overflow: hidden;
 }
 
+body.home #blog-signup {
+padding-bottom: 0;
+padding-top: 0;
+}
+
 
 }
 
