@@ -458,8 +458,7 @@ border-radius: 5px;
 }
 
 .vid-line{
-height: 0px!important;
-padding-bottom: 3%;
+height: 20px!important;
 background-image: url(../img/vid-line.png);
 background-repeat: no-repeat;
 background-position: center;
@@ -1411,11 +1410,17 @@ background-size: cover;
 background-attachment: fixed;
 padding: 10% 0px;
 }
+
+body.home .blog-page {
+background-image: url(../img/ozarks-800.jpg);
+background-size:contain;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-  body.tour .tour-dates {
+body.tour .tour-dates {
 margin-top: 2%;
 }
 
