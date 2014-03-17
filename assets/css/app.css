@@ -619,7 +619,8 @@ height: 50px!important;
 }
 
 .blog-title{
-    text-align: center;
+text-align: center;
+line-height: 0.9;
 }
 
 body.blog .blog-title {height:auto;}
@@ -1225,9 +1226,6 @@ width: 400px;
 .vid-desc{
 text-align: left;
  }
-.blog-title{
-  height: 85px;
-}
 
 .social-nav {
 float: right;
