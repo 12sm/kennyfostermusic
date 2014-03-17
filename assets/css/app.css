@@ -910,7 +910,7 @@ background-repeat: no-repeat;
   
 body.photos .insta-grid {padding:0px; margin:0px;}
 
-body.photos .instagrid li {
+body.photos .insta-grid li {
 list-style: none;
 list-style-type: none;
 list-style-image: none;	
@@ -919,7 +919,8 @@ list-style-image: none;
 body.photos .insta-grid li a {
 display: block;
 float: left;
-width: 50%;	
+width: 23%;
+margin:1%;	
 }
 
 body.photos .insta-grid li a img {
