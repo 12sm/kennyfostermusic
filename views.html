@@ -370,3 +370,100 @@
 [/wpv-posts-found]
 [wpv-no-posts-found][wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string][/wpv-no-posts-found]
 [wpv-layout-end]
+
+
+<!--Video CONTENT-->
+<div class="video-back" style="background-image:url(
+                    [wpv-if override="wpcf-override-thumb" evaluate="$override!=1"]
+                      [wpv-post-featured-image raw="true"]);">
+                    [/wpv-if]
+                    [wpv-if image="wpcf-featured-image" override="wpcf-override-thumb" evaluate="!empty($image) AND $override!=0"]
+                      [types field="featured-image" raw="true" id=""][/types]);">
+                    [/wpv-if]
+       </div>
+     <div class="row video-content-internal">
+  <div class="col-lg-1"></div>
+   <div class="col-lg-10 video-page-featured-video"> 
+     <div class="row">
+     <div class="col-lg-12 video-description">
+       <div class="row">
+         <div class="col-sm-12">
+             <h1 class="centered">[wpv-post-title]</h1>
+         </div>
+       </div>
+       <div class="row">
+           <div class="col-lg-12 vid-line"></div>
+         </div>    
+         <br>
+         <div class="row">
+           <div class="col-lg-12">
+             <p>[types field="long-description"][/types]</p>
+           </div>
+         </div>
+       </div>
+      </div>
+     <div class="row">       
+       <div class="col-lg-12">
+         <div class="row vid-back">
+           <div class="col-lg-12 vid-wrapper">
+             [types field="video-url" height="130%"][/types]]
+           </div>
+         </div>
+       </div>
+     </div>
+         
+       
+     </div>
+     
+     <div class="row vid-nav">
+       <div class="col-sm-1 vid-prev"></div>
+       <div class="col-sm-1 col-sm-offset-10 vid-next"></div>
+     </div>
+   </div> 
+  <div class="col-lg-1"></div>
+</div>
+     
+<!-- place thumbnails view here -->
+[wpv-view name="videos-thumbnails"]
+
+<!--VIDEO THUMBNAILS-->
+[wpv-layout-start]
+  [wpv-items-found]
+
+          
+<div class="container">
+  <div class="row">
+      <div id="owl-carousel">
+        <!-- wpv-loop-start -->
+    <wpv-loop>
+      <div>
+        <div class="video-thumbnail-internal">
+          <a href="[wpv-post-url]">
+          [wpv-if override="wpcf-override-thumb" evaluate="$override!=1"]
+                      [wpv-post-featured-image]
+                    [/wpv-if]
+                    [wpv-if image="wpcf-featured-image" override="wpcf-override-thumb" evaluate="!empty($image) AND $override!=0"]
+                      [types field="featured-image"][/types]
+                    [/wpv-if]
+          </a>
+          </div>
+          <div>
+            <a href="[wpv-post-url]">
+            <span class="thumb-title"><h3 class="centered">[wpv-post-title]</h3></span>
+          </a>
+          </div>
+          </div>
+        </wpv-loop>
+      <!-- wpv-loop-end -->
+  </div>
+  </div>
+</div>
+
+          
+          
+
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
