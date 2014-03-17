@@ -750,12 +750,12 @@ font-size:13px;
 }
 
 .blog-post-container .post-footer .date,
-body.home .blog-post-container .post-footer .date{
+body.home .date{
 color:#fff;
 }
 
 .blog-post-container .read-more h4,
-body.home .blog-post-container .read-more h4 {
+body.home .read-more {
 margin: 0px;
 font-size: 13px;
 text-transform: uppercase;	 
