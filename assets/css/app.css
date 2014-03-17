@@ -1175,7 +1175,6 @@ body.home .tour {
 	background-size: cover;
 	background-attachment: fixed;
 }
-body.home .blog-page {background-image:none;}
 
 body.about .col-xs-10 {background:rgba(0,0,0,.6);} 
 
@@ -1423,7 +1422,12 @@ background-size:contain;
 body.tour .tour-dates {
 margin-top: 2%;
 }
-
+body.home .blog-page{
+  background-image: url(../img/ozarks-lg.jpg);
+background-size: cover;
+padding: 5% 0px 0px 0px;
+overflow: hidden;
+}
 .navbar-collapse iframe {display:block!important; width:300px!important;}
 	
 .vid-desc{
