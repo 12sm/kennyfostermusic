@@ -1169,14 +1169,12 @@ body.home .tour {
 	background-size: cover;
 	background-attachment: fixed;
 }
-body.home .blog-page {
-background-image: url(../img/ozarks-800.jpg);
-background-size: cover;
-padding: 5% 0px 0px 0px;
-overflow: hidden;
-}
+body.home .blog-page {background-image:none;}
 
 body.about .col-xs-10 {background:rgba(0,0,0,.6);} 
+
+#blog-signup {padding: 2%;}
+#blog-signup img {margin: 0 auto;}
 	
 }
 
