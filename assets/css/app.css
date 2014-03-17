@@ -1052,8 +1052,8 @@ padding-bottom:0;
 
 .content-info {
 background: #1F1109;
-height: 150px;
-position: relative;
+position: absolute;
+bottom:0px;
 clear: both;
 width: 100%;
 }
