@@ -740,8 +740,15 @@ width: 100%;
 display: block;
 }
 
-.blog-post-container .post-footer,
-body.home .post-footer {
+.blog-post-container .post-footer {
+background: #554643;
+padding: 9px 0px 2px 0px;
+display: block;
+margin: 0px;
+font-size:13px;
+}
+
+body.home .blog-post-container .post-footer {
 background: #554643;
 padding: 9px 0px 2px 0px;
 display: block;
@@ -798,7 +805,15 @@ body.archive .read-more a h4 {
 text-align: right;
 }
 
+body.home .read-more a h4 {
+text-align: right;
+}
+
 body.archive .read-more a h4:hover {
+color: rgb(172, 165, 162);
+}
+
+body.home .read-more a h4:hover {
 color: rgb(172, 165, 162);
 }
 
