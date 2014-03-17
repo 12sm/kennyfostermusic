@@ -1159,6 +1159,9 @@ font-size: 20px;
 padding:0px 10px;
 }
 
+body.about{
+  padding-top: 12%!important;
+}
 
 .about-view, body.about {
 background: transparent url(../img/Bar-800.jpg) top center no-repeat;
