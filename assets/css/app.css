@@ -1226,7 +1226,8 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-body.post-type-archive-videos {
+body.post-type-archive-videos,
+body.photos {
 	background-image: url(../img/store-800.jpg);
 }
 	
