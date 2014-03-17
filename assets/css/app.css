@@ -540,6 +540,10 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+body.tour .tour-dates {
+margin-top: 5%;
+}
+
 body.home .tour {padding: 7% 0px;}
 
 .tour-top {
