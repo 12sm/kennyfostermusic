@@ -83,10 +83,11 @@ position: relative;
 
 
 p.credits {
-font-size:9px;
-opacity:.2;
-font-family:arial, sans-serif;
+font-size: 9px;
+opacity: .2;
+font-family: arial, sans-serif;
 margin-top: 0;
+text-align: center;
 }
 
 .credits a:hover {
@@ -1174,6 +1175,10 @@ body.about .col-xs-10 {background:rgba(0,0,0,.6);}
 #blog-signup img {margin: 0 auto;}
 
 form.email-signup {padding-bottom: 10%;}
+
+#social ul {
+margin: 0px auto;
+}
 	
 }
 
