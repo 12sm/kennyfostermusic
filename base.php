@@ -23,9 +23,9 @@
         <?php include roots_template_path(); ?>
       </main>
       </div>
-    </div>
-    
+
     <?php get_template_part('templates/footer'); ?>
+    </div>
 
 </body>
 </html>
