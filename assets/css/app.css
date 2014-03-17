@@ -822,9 +822,9 @@ cursor: default;
 }
 
 body.single-post #disqus_thread {
-background-color: rgba(216, 215, 215, .4);
+background-color: rgba(51, 40, 40, 0.4);
 margin: -15px;
-padding: 30px;
+padding: 3% 10$;
 }
 
 /* ==========================================================================
