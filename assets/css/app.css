@@ -731,7 +731,7 @@ border: 1px solid #332D28;
 box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
 }
 
-.blog-post-container {margin:0px auto;}
+.blog-post-container {margin:0px auto; width: inherit!important;}
 
 .divider {
 background: transparent url(../img/divider.png) 80px 0px scroll no-repeat;
