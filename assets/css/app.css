@@ -26,6 +26,10 @@ font-family: 'chaparral-pro';
 font-size:13px;
 }
 
+body.home {
+background: #d5e9f7;	
+}
+
 body .page-header {display:none;}
 
 .col img,
@@ -279,8 +283,9 @@ opacity: 0.5;
    ========================================================================== */
 .home-slider{
 height: 0px;
-padding-bottom: 58%;
+padding-bottom: 49%;
 background: #d5e9f7 url(../img/ajax-loader.gif) 50% 50% no-repeat;
+margin-top: 50px;
 }
 
 
