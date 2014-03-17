@@ -69,6 +69,19 @@ a {
 
 .container-master {width:100%;height:auto;padding:0;}
 
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.wrap {
+min-height: 100%;
+position: relative;	
+}
+
+.content {padding-bottom:150px; }
+
+
 p.credits {
 font-size:9px;
 opacity:.2;
@@ -79,12 +92,6 @@ margin-top: 0;
 .credits a:hover {
 color: rgb(204, 154, 154)!important;
 text-decoration: none;
-}
-
-footer {
-padding: 30px 0px;
-bottom: 0;
-height:auto!important;
 }
 
 /* ==========================================================================
@@ -298,13 +305,6 @@ padding-top: 50px;
     margin-top: 20%;
     background-position: 80%;
 }
-
-/* ==========================================================================
-   Content
-   ========================================================================== */
-
-
-.content { }
 
 /* ==========================================================================
    Store
@@ -1056,6 +1056,8 @@ position: absolute;
 bottom:0px;
 clear: both;
 width: 100%;
+padding: 30px 0px;
+height:auto!important;
 }
 
 #social ul {margin:0px; padding:0px; list-style: none;opacity: .2;}
