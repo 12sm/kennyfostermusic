@@ -761,16 +761,14 @@ body.home .date {
 color:#fff;
 }
 
-.blog-post-container .read-more h4, {
+.blog-post-container .read-more h4 {
 margin: 0px;
 font-size: 13px;
 text-transform: uppercase;	 
 }
 
-body.home .read-more h4 {
-margin: 0px;
-font-size: 13px;
-text-transform: uppercase;
+body.archive .read-more a h4 {
+text-align: right;
 }
 
 .blog-post-individual-internal .post-footer i,
