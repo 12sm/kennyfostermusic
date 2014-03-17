@@ -1218,6 +1218,13 @@ body.home .blog-page {
 background-image: url(../img/ozarks-800.jpg);
 background-size:contain;
 }
+
+body.tour {
+background-image: url(../img/desert-800.jpg);
+border: none;
+background-size: cover;
+background-attachment: fixed;
+}
 	
 }
 
