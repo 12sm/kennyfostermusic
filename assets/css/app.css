@@ -761,6 +761,10 @@ font-size: 13px;
 text-transform: uppercase;	 
 }
 
+.blog-post-individual-internal .post-footer i {
+margin-right: 5px;
+}
+
 .read-more a:hover {text-decoration:none;}
 
 
