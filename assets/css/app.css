@@ -1225,6 +1225,10 @@ border: none;
 background-size: cover;
 background-attachment: fixed;
 }
+
+body.post-type-archive-videos {
+	background-image: url(../img/store-800.jpg);
+}
 	
 }
 
