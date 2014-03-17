@@ -748,16 +748,29 @@ margin: 0px;
 font-size:13px;
 }
 
+body.home .post-footer {
+background: #554643;
+padding: 9px 0px 2px 0px;
+display: block;
+margin: 0px;
+font-size: 13px;
+}
+
 .blog-post-container .post-footer .date,
-body.home .date{
+body.home .date {
 color:#fff;
 }
 
-.blog-post-container .read-more h4,
-body.home .read-more {
+.blog-post-container .read-more h4, {
 margin: 0px;
 font-size: 13px;
 text-transform: uppercase;	 
+}
+
+body.home .read-more h4 {
+margin: 0px;
+font-size: 13px;
+text-transform: uppercase;
 }
 
 .blog-post-individual-internal .post-footer i,
