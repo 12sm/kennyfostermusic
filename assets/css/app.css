@@ -779,7 +779,7 @@ text-align: right;
 
 body.home .post-footer .read-more {
 margin: 0px;
-font-size: 13px;
+font-size: 13px!important;
 text-transform: uppercase;
 }
 
