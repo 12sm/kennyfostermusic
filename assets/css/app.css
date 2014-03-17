@@ -24,6 +24,7 @@ body {
 background-color: #1e1008;
 font-family: 'chaparral-pro';
 font-size:13px;
+height:100%;
 }
 
 body .page-header {display:none;}
@@ -82,9 +83,10 @@ text-decoration: none;
 }
 
 footer {
-	/*background-color:#1e1008;*/
-	padding: 30px 0px;
-	height:auto!important;
+padding: 30px 0px;
+bottom: 0;
+position: absolute!important;
+height: 110px!important;
 }
 
 /* ==========================================================================
