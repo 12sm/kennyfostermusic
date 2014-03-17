@@ -405,12 +405,7 @@ background-attachment: fixed;
 background-size: cover;
 }
 
-.about-view {
-background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
-background-size: cover;
-background-attachment: fixed;
-padding: 10% 0px;
-}
+
 
 .full-bio {
 overflow:scroll;
@@ -1365,6 +1360,13 @@ margin: 10px 15px;
 .video-page-featured-video {
 margin: 4% 0px;
 padding: 0px 10%;
+}
+
+.about-view {
+background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 10% 0px;
 }
 
 }
