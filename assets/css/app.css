@@ -926,6 +926,17 @@ background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
 }
+
+body.photos .page-header {
+padding-bottom: 0px;
+margin: 100px 0px 50px 0px;
+border-bottom: 0px solid #eee;
+}
+
+body.photos h1 {
+font-family: 'Haymaker';
+font-size: 50px;	
+}
   
 body.photos .insta-grid {padding:0px; margin:0px;}
 
