@@ -505,7 +505,7 @@ text-align: center;
  }
  
 .video-thumbnail-internal img {
-width: 100%;
+width: 87%;
 border: 1px solid #2B1A18;
 height: 120px;
 }
@@ -515,6 +515,8 @@ font-family: arial, helvetica, sans-serif;
 color: #4E3E3C;
 font-size: 13px;
 line-height: 1.1em;
+clear: left;
+float: none;
 }
 
 a span.thumb-title:hover {
@@ -1285,7 +1287,7 @@ width: 400px;
 .navbar-collapse iframe {display:block!important;}
 
 .video-thumbnail-internal img{
-  height: 150px;
+  height: 180px;
 }  
 	
 .vid-desc{
