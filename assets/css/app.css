@@ -493,9 +493,9 @@ overflow-y: auto;
  .video-description h1 {font-size:35px; font-family: "viva-std";}
  
  
- .video-page-featured-video {
-	margin-top:4%; 
- }
+.video-page-featured-video {
+margin-top: 50px!important;
+}
 
 
 .video-thumbnail-internal {
