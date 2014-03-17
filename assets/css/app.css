@@ -1405,6 +1405,13 @@ background-attachment: fixed;
 padding: 10% 0px;
 }
 
+
+
+body.home .blog-page {
+background-image: url(../img/ozarks-800.jpg);
+}
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -1441,11 +1448,6 @@ padding: 0px 10%;
 }
    .tour-header{
     margin-top: 25px!important;
-}
-
-
-body.home .blog-page {
-background-image: url(../img/ozarks-800.jpg);
 }
 
 
