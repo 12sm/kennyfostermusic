@@ -5,12 +5,23 @@
       	<?php dynamic_sidebar('sidebar-footer'); ?>
       </div>-->
     
-          <div class="row footer-nav">  
-					<?php
+          <div class="row footer-nav">
+          	<div class="col-sm-6">  
+					<p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
+              </div>
+              <div class="col-sm-6 social-nav">
+               	<?php
                  if (has_nav_menu('footer_navigation')) :
                    wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));
                  endif;
               ?>
+                <ul class="social-footer">
+                    <li><a href="https://www.facebook.com/KennyFosterOfficial"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="https://twitter.com/kennyisgo"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="http://instagram.com/kennyisgo"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href="http://www.youtube.com/user/KennyFosterOFFICIAL"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+                    </ul>
+              </div>
           </div>
        
           <div id="social" class="row social-nav">
@@ -23,11 +34,7 @@
                     </ul>
               </div>
               <div class="col-sm-6">
-                  <?php
-     if (has_nav_menu('social_navigation')) :
-       wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
-     endif;
-  ?>
+                
                 <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
               </div>
             </div><!-- end row social-nav -->
