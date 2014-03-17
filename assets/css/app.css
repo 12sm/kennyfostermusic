@@ -722,10 +722,13 @@ border-bottom: 3px solid #ededed;
 }
 
 .blog-post-individual-internal {
-background: rgba(216,202,176,0.8);
-border: 4px solid #fff;
+background: rgba(255, 250, 240, 0.8);
+padding: 9px 0px 2px 0px;
 width: 100%;
 margin: 10px 0px;
+-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
+box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
 }
 
 .blog-post-container {margin:0px auto;}
@@ -770,6 +773,8 @@ color:#352C21
 body.single .blog-container {
 background: rgba(53, 32, 18, 0.9)!important;
 }
+
+body.archive .blog-title a {color:#554643;}
 
 /* ==========================================================================
    Tour Page
