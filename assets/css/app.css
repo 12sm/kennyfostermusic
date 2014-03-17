@@ -767,6 +767,12 @@ font-size: 13px;
 text-transform: uppercase;	 
 }
 
+body.archive .post-footer .read-more {
+margin: 0px;
+font-size: 13px;
+text-transform: uppercase;
+}
+
 body.archive .read-more a h4 {
 text-align: right;
 }
