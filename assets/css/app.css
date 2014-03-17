@@ -672,7 +672,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 hr{
   margin: 2px!important;
-  border-top: 2px solid rgba(255,255,255,.3)!important;
+  border-top: 1px solid rgba(255,255,255,.3)!important;
 }
 
 .blog-title a{
@@ -775,6 +775,10 @@ background: rgba(53, 32, 18, 0.9)!important;
 }
 
 body.archive .blog-title a {color:#554643;}
+
+body.archive .post {
+padding: 2%;
+}
 
 /* ==========================================================================
    Tour Page
