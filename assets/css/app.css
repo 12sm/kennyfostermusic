@@ -1146,7 +1146,9 @@ border: none!important;
 top: -360px!important;
 }
 
-
+body.home .videos {
+height: 640px!important;
+}
 
 .video-description h1 {
 font-size: 20px;
