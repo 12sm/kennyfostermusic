@@ -415,7 +415,6 @@ overflow:scroll;
 /* ==========================================================================
    Video
    ========================================================================== */
-
 .slides .video {
 background-repeat: no-repeat;
 background-size: cover;
@@ -448,6 +447,8 @@ background-image: url(../img/store-big.jpg);
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
+padding-top: 9%;
+
 }
 .video-content {
 margin-top: -50%;
@@ -542,7 +543,7 @@ background-attachment: fixed;
 }
 
 body.tour .tour-dates {
-margin-top: 15%;
+margin-top: 16%;
 }
 
 body.home .tour {padding: 7% 0px;}
@@ -1204,6 +1205,11 @@ width: 170px;
 .banner {
 background-color: rgba(0, 0, 0, .3);
  }
+
+body.post-type-archive-videos,
+body.single-videos {
+  padding-top: 0px;
+}
 
 .navbar-collapse iframe {
 display: block!important;
