@@ -447,6 +447,11 @@ height: 100%;
 padding-bottom: 0px;
 margin-top: 0px;
 position: fixed;
+-webkit-filter: blur(0px);
+-moz-filter: blur(0px);
+-o-filter: blur(0px);
+-ms-filter: blur(0px);
+filter: blur(0px);
 }
 
 .video-content {
@@ -1338,6 +1343,12 @@ margin: 10px 15px;
 .owl-next, .owl-prev{
   margin-top: initial!important;
 }
+
+.video-page-featured-video {
+margin: 4% 0px;
+padding: 0px 10%;
+}
+
 }
 
 
