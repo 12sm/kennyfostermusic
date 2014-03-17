@@ -461,8 +461,7 @@ border-radius: 5px;
 }
 
 .vid-line{
-height: 0px!important;
-padding-bottom: 3%;
+height: 20px!important;
 background-image: url(../img/vid-line.png);
 background-repeat: no-repeat;
 background-position: center;
