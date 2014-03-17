@@ -1123,7 +1123,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width:767px) {
 
 .owl-next, .owl-prev{
-  margin-top: -4%!important;
+  margin-top: -6%!important;
 }
 	
 .navbar-default {
@@ -1188,7 +1188,7 @@ width: 50px!important;
 }
 
 .owl-next, .owl-prev{
-  margin-top: -3%!important;
+  margin-top: -5%!important;
 }
 .col,
 .post-nav {margin:0 8%;}
@@ -1405,7 +1405,7 @@ margin-right: 0;
 margin: 10px 15px;
 }
 .owl-next, .owl-prev{
-  margin-top: initial!important;
+  margin-top: -2%!important;
 }
 
 .video-page-featured-video {
