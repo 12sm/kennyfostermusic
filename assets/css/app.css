@@ -959,7 +959,7 @@ list-style-image: none;
 body.photos .insta-grid li a {
 display: block;
 float: left;
-width: 23%;
+width: 48%;
 margin: 1%;
 -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
 -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.31);
@@ -1328,6 +1328,11 @@ font-size: 50px;
 .blog-post-individual-internal {
 margin: 15px;
 width: 400px;
+}
+
+body.photos .insta-grid li a {
+width: 23%;
+margin: 1%;
 }
 
 }
