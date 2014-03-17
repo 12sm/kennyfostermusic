@@ -782,6 +782,7 @@ color:#352C21
 }
 
 body.single .blog-container {
+	background: none;
 }
 
 body.archive .blog-title a {color:#554643!important;}
