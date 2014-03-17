@@ -436,7 +436,10 @@ margin-top: -11%;
   filter: blur(10px);
   opacity: 0.7;
 }
-
+body.home .videos{
+  height: 0px!important;
+  padding-bottom: 105%;
+}
 body.post-type-archive-videos,
 body.single-videos {
 background: rgba(30, 15, 9, .4);
@@ -1373,7 +1376,10 @@ padding: 10% 0px;
 text-align: left;
  }
 
-body.home .videos {height:700px!important;}
+body.home .videos {
+  padding-bottom: 53%;
+  min-height: 700px; 
+}
 
 .social-nav {
 float: right;
