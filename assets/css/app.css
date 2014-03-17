@@ -506,7 +506,8 @@ text-align: center;
 .video-thumbnail-internal img {
 width: 100%;
 border: 1px solid #2B1A18;
-height: 120px;
+max-height: 150px;
+min-height: 120px;
 }
 
 span.thumb-title {
@@ -663,7 +664,7 @@ text-align: center!important;
 }
 
 .blog-page {
-background-image: url(../img/ozarks.jpg);
+background-image: url(../img/ozarks-lg.jpg);
 background-size: cover;
 padding: 5% 0px 0px 0px;
 overflow: hidden;
@@ -672,7 +673,7 @@ overflow: hidden;
 .row.blog-posts-internal {
 background: rgba(30, 15, 9, .4);
 top: 10px;
-background-image: url(../img/store-bg.jpg);
+background-image: url(../img/store-big.jpg);
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
@@ -1013,10 +1014,6 @@ padding:0px 10px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
-
-.video-thumbnail-internal img{
-  max-height: 150px;
-}
 
 .col,
 .post-nav {margin:0 8%;}
