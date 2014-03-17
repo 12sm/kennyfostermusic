@@ -360,6 +360,13 @@ padding-top: 50px;
    About
    ========================================================================== */
 
+.about-view {
+background: transparent url../img/Bar-768.jpg) top center no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 10% 0px;
+}
+
 .who-is-kf{
   height: 0px;
   padding-bottom: 40%;
