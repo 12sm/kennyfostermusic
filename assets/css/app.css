@@ -1018,7 +1018,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width:767px) {
 
 .owl-next, .owl-prev{
-  margin-top: -4%;
+  margin-top: -4%!important;
 }
 	
 .navbar-default {
@@ -1053,7 +1053,7 @@ padding:0px 10px;
 @media (min-width:768px) {
 
 .owl-next, .owl-prev{
-  margin-top: -3%;
+  margin-top: -3%!important;
 }
 .col,
 .post-nav {margin:0 8%;}
