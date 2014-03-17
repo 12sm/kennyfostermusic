@@ -901,8 +901,8 @@ padding-top: 1%;
    }
 
    .next-show{
-    border-left: 1px solid #FFFFFF!important;
-    border-right: 1px solid #FFFFFF!important;
+    border-left: none; /*1px solid #FFFFFF!important;*/
+    border-right:none; /* 1px solid #FFFFFF!important;*/
     font-size: 1.4em;
     text-align:center;
    }
