@@ -761,30 +761,16 @@ body.home .date {
 color:#fff;
 }
 
-.blog-post-container .read-more h4 {
+.blog-post-container .read-more h4, {
 margin: 0px;
 font-size: 13px;
 text-transform: uppercase;	 
 }
 
-body.archive .post-footer .read-more {
+body.home .read-more h4 {
 margin: 0px;
 font-size: 13px;
 text-transform: uppercase;
-}
-
-body.archive .read-more a h4 {
-text-align: right;
-}
-
-body.home .post-footer .read-more {
-margin: 0px;
-font-size: 13px;
-text-transform: uppercase;
-}
-
-body.home .read-more a h4 {
-text-align: right;
 }
 
 .blog-post-individual-internal .post-footer i,
@@ -1533,8 +1519,12 @@ and (orientation : landscape) {
 .about-view {
 background:  url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) center no-repeat;
 background-size: cover;
-background-attachment: fixed!important;
+/*background-attachment: fixed;*/
 padding: 10% 0px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 }
 
@@ -1546,8 +1536,12 @@ and (orientation : cover) {
 .about-view{
 background:  url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) center no-repeat;
 background-size: cover;
-background-attachment: fixed!important;
+/*background-attachment: fixed;*/
 padding: 10% 0px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 }
 
