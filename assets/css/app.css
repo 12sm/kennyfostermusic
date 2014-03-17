@@ -1159,12 +1159,6 @@ background-attachment: fixed;
 padding: 10% 0px;
 }
 
-body.home .about-view p.centered,
-body.home .about-view h3.centered {
-background: rgba(0,0,0,0.8);
-margin: 0 10%;
-}
-
 body.home .about-view > div {
 background: rgba(0,0,0,.4);
 padding: 0 10%;
