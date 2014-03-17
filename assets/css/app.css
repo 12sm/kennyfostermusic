@@ -777,6 +777,16 @@ body.archive .read-more a h4 {
 text-align: right;
 }
 
+body.home .post-footer .read-more {
+margin: 0px;
+font-size: 13px;
+text-transform: uppercase;
+}
+
+body.home .read-more a h4 {
+text-align: right;
+}
+
 .blog-post-individual-internal .post-footer i,
 body.home .blog-post-individual-internal .post-footer i {
 margin-right: 5px;
