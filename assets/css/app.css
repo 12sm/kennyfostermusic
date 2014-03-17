@@ -1191,6 +1191,10 @@ form.email-signup {padding-bottom: 10%;}
 margin: 0px auto;
 width: 170px;
 }
+
+body.home .blog-page {
+background-image: url(../img/ozarks-800.jpg);
+}
 	
 }
 
