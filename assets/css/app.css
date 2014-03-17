@@ -505,9 +505,9 @@ text-align: center;
  }
  
 .video-thumbnail-internal img {
-width: 87%;
+width: 100%;
 border: 1px solid #2B1A18;
-height: 120px;
+height: auto;
 }
 
 span.thumb-title {
@@ -1285,10 +1285,6 @@ width: 400px;
 @media (min-width:992px) {
 
 .navbar-collapse iframe {display:block!important;}
-
-.video-thumbnail-internal img{
-  height: 180px;
-}  
 	
 .vid-desc{
 text-align: left;
