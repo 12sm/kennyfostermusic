@@ -741,7 +741,7 @@ display: block;
 }
 
 .blog-post-container .post-footer,
-body.home .blog-post-container .post-footer {
+body.home .post-footer {
 background: #554643;
 padding: 9px 0px 2px 0px;
 display: block;
