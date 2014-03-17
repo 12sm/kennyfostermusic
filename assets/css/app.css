@@ -471,7 +471,7 @@ margin-top: 5px;
  .video-description {
 background: transparent;
 overflow: scroll;
-height: 400px;
+height: auto;
 margin: 0px;
 overflow-x: hidden;
 overflow-y: auto; 
@@ -1019,8 +1019,6 @@ background-image: none!important;
 border: none!important;
 }
 
-.video-description {height:auto;}
-
 .flex-direction-nav {
 top: -360px!important;
 }
@@ -1215,6 +1213,10 @@ width: 400px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+
+  .video-description{
+    height: 400px;
+  }
 	
 .vid-desc{
 text-align: left;
