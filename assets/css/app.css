@@ -824,7 +824,7 @@ cursor: default;
 body.single-post #disqus_thread {
 background-color: rgba(51, 40, 40, 0.4);
 margin: -15px;
-padding: 3% 10$;
+padding: 3% 10%;
 }
 
 /* ==========================================================================
