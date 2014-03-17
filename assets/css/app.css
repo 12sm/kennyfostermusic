@@ -22,6 +22,8 @@
 
 body {
 background-color: #1e1008;
+font-family: 'chaparral-pro';
+font-size:13px;
 }
 
 body .page-header {display:none;}
@@ -679,9 +681,8 @@ padding: 5% 0px 0px 0px;
 overflow: hidden;
 }
 
-.row.blog-posts-internal {
+body.category-blog {
 background: rgba(30, 15, 9, .4);
-top: 10px;
 background-image: url(../img/store-big.jpg);
 background-size: cover;
 background-attachment: fixed;
@@ -715,13 +716,20 @@ border: 4px solid #fff;
 .read-more a:hover {text-decoration:none;}
 
 .blog-post-container .post-footer {
-background: #2F1813;	
-padding: 5px;
+background: #554643;
+padding: 9px 0px 2px 0px;
+display: block;
+margin: 0px;
+font-size:13px;
+}
+
+.blog-post-container .post-footer .date {
+color:#fff;
 }
 
 .blog-post-container .read-more h4 {
 margin: 0px;
-font-size: 16px;
+font-size: 13px;
 text-transform: uppercase;	 
 }
 
