@@ -756,7 +756,8 @@ margin: 0px;
 font-size: 13px;
 }
 
-.blog-post-container .post-footer .date {
+.blog-post-container .post-footer .date,
+body.home .date {
 color:#fff;
 }
 
