@@ -1016,6 +1016,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width:767px) {
+
+.owl-next, .owl-prev{
+  margin-top: -4%;
+}
 	
 .navbar-default {
 opacity: 1;
@@ -1048,6 +1052,9 @@ padding:0px 10px;
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
+.owl-next, .owl-prev{
+  margin-top: -3%;
+}
 .col,
 .post-nav {margin:0 8%;}
 
