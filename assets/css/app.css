@@ -1175,6 +1175,8 @@ body.about .col-xs-10 {background:rgba(0,0,0,.6);}
 
 #blog-signup {padding: 2%;}
 #blog-signup img {margin: 0 auto;}
+
+form.email-signup {padding-bottom: 10%;}
 	
 }
 
