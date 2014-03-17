@@ -714,7 +714,8 @@ background-repeat: no-repeat;
 background: rgba(53, 32, 18, 0.9);
 }
 
-.blog-posts {
+body.home .blog-posts,
+body.archive .blog-posts {
 background: rgba(30, 15, 9, .8);
 padding: 1% 4%;
 }
