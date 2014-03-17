@@ -718,6 +718,8 @@ border-bottom: 3px solid #ededed;
 .blog-post-individual-internal {
 background: rgba(216,202,176,0.8);
 border: 4px solid #fff;
+width: 100%;
+margin: 10px 0px;
 }
 
 .blog-post-container {margin:0px auto;}
