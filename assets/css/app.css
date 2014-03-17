@@ -529,6 +529,9 @@ float: none;
 a span.thumb-title:hover {
 text-decoration:none;
 }
+.thumb-title>h3 {
+font-size: 16px!important;
+}
 
  
 /* ==========================================================================
