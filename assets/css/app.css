@@ -1493,7 +1493,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape) { 
 .about-view {
 background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
-background-size: contain;
+background-size: cover;
 background-attachment: fixed;
 padding: 10% 0px;
 }
@@ -1503,7 +1503,7 @@ padding: 10% 0px;
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
-and (orientation : portrait) {
+and (orientation : cover) {
 .about-view{
 background: transparent url(http://kennyfoster.12southmusic.com/wp-content/uploads/2014/03/Bar.jpg) top center no-repeat;
 background-size: contain;
