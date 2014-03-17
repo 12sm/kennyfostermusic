@@ -821,6 +821,12 @@ text-decoration: none;
 cursor: default;
 }
 
+body.single-post #disqus_thread {
+background-color: rgba(216, 215, 215, .4);
+margin: -15px;
+padding: 30px;
+}
+
 /* ==========================================================================
    Tour Page
    ========================================================================== */
