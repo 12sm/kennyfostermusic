@@ -801,6 +801,8 @@ color: rgb(172, 165, 162);
 
 body.single-post .blog-title a {
 font-size: 66px;
+color: rgb(70, 44, 44)!important;
+font-family:'viva-std';
 }
 
 body.single-post p {
