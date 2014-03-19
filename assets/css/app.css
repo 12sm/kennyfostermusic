@@ -5,10 +5,6 @@
 
 
 @font-face{
-  font-family: "Old-western";
-  src: url(../fonts/Go-2-Old-Western.ttf);
-}
-@font-face{
   font-family: "Haymaker";
   src: url(../fonts/Haymaker.ttf);
 }
@@ -542,7 +538,7 @@ margin-top: 12%!important;
 }
 
 .bit-notify {
-font-family: 'Old-Western'!important;
+font-family: 'french-clarendon-ornamented', sans-serif!important;
 font-size: 27px!important;
 color: #FFF!important;
 background: rgba(255,255,255,.2)!important;
@@ -910,7 +906,7 @@ padding-top: 1%;
     text-align:center;
    }
    .next-show>h2{
-    font-family: 'Old-Western'!important;
+    font-family: 'french-clarendon-ornamented', sans-serif!important;
     font-size: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -960,7 +956,7 @@ display: none!important;
 }
 
 .bit-tickets a{
-  font-family: 'Old-Western';
+  font-family: 'french-clarendon-ornamented', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -980,19 +976,19 @@ display: none!important;
    }
 
    .tour-header>*{
-    font-family: 'Old-Western'!important;
+    font-family: 'french-clarendon-ornamented', sans-serif!important;
    }
    .hammer{
     display: none;
    }
    .hammer>h3{
-    font-family: 'Old-Western'!important;
+    font-family: 'french-clarendon-ornamented', sans-serif!important;
    }
    .afoot{
     display: none;
    }
    .afoot>h3{
-    font-family: 'Old-Western'!important;
+    font-family: 'french-clarendon-ornamented', sans-serif!important;
    }
    .more-dates{
    height: 0px!important;
@@ -1387,7 +1383,7 @@ display: none!important;
 }
 
 .bit-tickets a{
-  font-family: 'Old-Western';
+  font-family: 'french-clarendon-ornamented', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -1407,21 +1403,21 @@ border-top: 1px solid #ffffff;
 }
 
 .tour-header>*{
-font-family: 'Old-Western'!important;
+font-family: 'french-clarendon-ornamented', sans-serif!important;
 }
 
 .hammer>h3{
-font-family: 'Old-Western'!important;
+font-family: 'french-clarendon-ornamented', sans-serif!important;
 font-size:32px!important;
 opacity:.2;
 }
 .afoot>h3{
-font-family: 'Old-Western'!important;
+font-family: 'french-clarendon-ornamented', sans-serif!important;
 font-size:32px!important;
 opacity:.2;
 }
 .next-show>h2{
-font-family: 'Old-Western'!important;
+font-family: 'french-clarendon-ornamented', sans-serif!important;
 font-size: 30px;
 }
 .more-dates{
